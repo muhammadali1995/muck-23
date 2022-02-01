@@ -6,10 +6,15 @@ module.exports = {
     colors: {
       blue: {
         light: '#0089D31A'
-      }
+      },
+      dark:{
+        primary:'#022F5B'
+      },
+      accent: '#00AECC',
+      white: '#fff'
     },
     maxWidth: {
-      desktop: '1000px'
+      desktop: '1400px'
     },
     extend: {
 
