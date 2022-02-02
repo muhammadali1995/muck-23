@@ -16,7 +16,7 @@ export default function Home() {
                     <div className="pt-[128px] pb-[307px] col-span-1">
                         <h1 className="header-title text-color-text">
                             Easy
-                            <br />  
+                            <br />
                             Efficient
                             <br />
                             <span className="text-accent"> Innovative</span>

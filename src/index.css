@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .nav-link{
+        @apply text-xl leading-[26px] text-color-text uppercase;
+    }
+
+    .nav-dropdown-link{
+        @apply text-sm leading-8 text-color-text;
+    }
+
+    .register-btn{
+        @apply text-color-text font-medium text-lg leading-[22px];
+    }
+
+    .header-title{
+        @apply text-header-title leading-header-title font-extrabold;
+    },
+
+    .header-text{
+        @apply text-lg font-medium leading-7;
+    }
+    .header-btn-try{
+        @apply px-17.5 py-6 bg-accent text-white font-medium text-2xl leading-header-btn-try uppercase;
+    }
+}
