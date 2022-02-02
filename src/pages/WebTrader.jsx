@@ -1,5 +1,7 @@
-export default function WebTrader() {
+import KeyFeatures from "../components/KeyFeatures";
+
+export default function WebTrading() {
     return (
-        <h1>Web Trading</h1>
+        <KeyFeatures/>
     )
 }

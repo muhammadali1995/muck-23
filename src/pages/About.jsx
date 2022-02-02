@@ -1,5 +1,5 @@
 import Offers from "../components/Offers";
-import Trading from '../components/Trading'
+import TradingHeader from '../components/TradingHeader'
 import MarketPlace from '../components/Marketplace'
 import Footer from '../components/Footer'
 import Contact from "../components/Contact";
@@ -7,7 +7,7 @@ import Contact from "../components/Contact";
 export default function About() {
     return (
         <>
-            <Trading />
+            <TradingHeader />
             <Offers />
             <MarketPlace/>
             <Contact/>
