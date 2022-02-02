@@ -14,7 +14,7 @@ module.exports = {
       white: '#fff'
     },
     maxWidth: {
-      desktop: '1400px'
+      desktop: '1920px'
     },
     extend: {
 
