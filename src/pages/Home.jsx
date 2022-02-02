@@ -41,6 +41,9 @@ export default function Home() {
             <div className="px-[486px]">
                 <Partners />
             </div>
+            <div className="">
+
+            </div>
         </>
     )
 }
