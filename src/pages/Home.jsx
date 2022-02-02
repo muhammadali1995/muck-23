@@ -1,5 +1,5 @@
 import { HomeAutomateTrade } from "../components/HomeAutomateTrade";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 import { Partners } from "../components/Partners";
 import Registration from "../components/Registration";
 import headerImage from './../assets/home-header.png';
