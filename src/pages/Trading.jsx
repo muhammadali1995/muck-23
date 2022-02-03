@@ -12,10 +12,7 @@ export default function Trading() {
                 <Currencies />
             </div>
             <AutomaticTradingSteps />
-            <div className="mb-10 md:mb-15 lg:mb-37.5">
-                <MarketPlace />
-            </div>
-            <Footer />
+            <MarketPlace />
         </>
     )
 }

@@ -5,7 +5,7 @@ import Footer from './../components/Footer'
 export default function Exchanges() {
     return (
         <>
-        <ExchangesTable />
+            <ExchangesTable />
             <Marketplace />
             <div className='mt-20'>
                 <Footer />

@@ -29,4 +29,8 @@
     .partners-logo{
         @apply w-[200px] sm:w-60 mx-auto md:w-full;
     }
+
+    .side-padding {
+        @apply px-10 md:px-16 lg:px-28 2xl:px-[200px] 3xl:pl-75 3xl:pr-[312px]
+    }
 }

@@ -1,13 +1,7 @@
-import Navbar from "./Navbar";
-import Registration from "./Registration";
 import headerImage from './../assets/automatictradingheader.png';
 
 export const AutomaticTradingHeader = () => {
-    return <div className='bg-dark-primary home-header px-10 md:px-16 lg:px-28 2xl:px-[200px] 3xl:pl-75 3xl:pr-80'>
-        <div className="lg:pt-16 lg:pb-11">
-            <Registration color={'text-white'} />
-        </div>
-        <Navbar navColor={'text-white'} />
+    return <div className='bg-dark-primary home-header px-10 md:px-24'>
         <div className='grid grid-cols-2'>
             <div className="py-10 lg:py-16 2xl:pt-[149px] 2xl:pb-[307px] col-span-2 lg:col-span-1 text-center lg:text-left">
                 <h1 className="header-title text-white">
