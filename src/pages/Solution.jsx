@@ -18,9 +18,6 @@ const stepsdb = [
 export default function Solution() {
     return (
         <>
-            <div className="bg-[#0089D31A]">
-
-            </div>
             <SolutionMain />
             <div className='mx-auto'>
                 <div className='w-full p-8 md:max-w-[1200px] flex flex-col mx-auto'>
@@ -34,9 +31,6 @@ export default function Solution() {
                 </div>
             </div>
             <Marketplace />
-            <div className='mt-20'>
-                <Footer />
-            </div>
         </>
     )
 }

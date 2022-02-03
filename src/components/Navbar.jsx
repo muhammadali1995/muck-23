@@ -105,7 +105,7 @@ export default function Navbar({ navColor }) {
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/'>
+                                to='/solution'>
                                 Beginners
                             </Link>
                         </li>

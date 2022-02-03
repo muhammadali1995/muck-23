@@ -14,7 +14,7 @@ export default function Paragraphs() {
         { text: 'With advanced ‘Close All’ control, traders can close any transaction: profitable, losing, buy, sell and open positions with just one click.' }
     ]
     return (
-        <div className="max-w-[1200px] p-8 mx-auto">
+        <div className="side-padding mx-auto">
             <h1 className="font-bold text-[48px] my-[60px]">More Features Included</h1>
             {moreInformationdb.map((element,index) => {
                 return (

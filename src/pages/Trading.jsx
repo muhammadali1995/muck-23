@@ -31,7 +31,7 @@ export default function Trading() {
     return (
         <>
             <AutomaticTradingHeader />
-            <div className="-mt-25 sm:-mt-32">
+            <div className="-mt-25 sm:-mt-32 side-padding">
                 <Currencies />
             </div>
             <div className='mx-auto'>

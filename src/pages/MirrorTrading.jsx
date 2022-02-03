@@ -18,7 +18,7 @@ export default function MirrorTrading() {
     return (
         <>
             <MirrorTraderMain stepsdb={stepsdb} />
-            <div className='-mt-28'>
+            <div className='-mt-28 side-padding'>
                 <Currencies />
             </div>
             <div className='mx-auto'>
@@ -31,9 +31,6 @@ export default function MirrorTrading() {
                 </div>
             </div>
             <Marketplace />
-            <div className='mt-20'>
-                <Footer />
-            </div>
         </>
     )
 }

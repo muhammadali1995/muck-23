@@ -2,7 +2,7 @@ import laptop from './../assets/WebTrader_Laptop_design.png'
 
 export default function WebTraderMain() {
     return (
-        <div className="bg-[#0089D31A] pb-[105px] px-8">
+        <div className="bg-[rgba(0,137,211,0.1)] pb-[105px] side-padding">
             <div className="w-full pt-20 pb-20 flex items-center flex-col lg:flex-row justify-between">
                 <div className="w-full mr-6 lg:w-1/2">
                     <h1 className="font-extrabold text-xl md:text-6xl">Our
