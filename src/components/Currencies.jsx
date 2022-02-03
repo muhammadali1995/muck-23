@@ -18,14 +18,14 @@ export default function Currencies() {
     return (
         <div className='p-8'>
             <div className='bg-cover text-center rounded-3xl w-full md:max-w-[1200px] mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
-                <div className='py-20'>
+                <div className='pt-8 md:pt-25'>
                     <h3 className='text-xl md:text-3xl font-bold uppercase text-white m-2 sm:m-0'>Currencies you can find
                         <span className='inline-block sm:block font-normal'>on our Platform</span>
                     </h3>
                     <div className='flex flex-wrap mt-8 w-10/12 mx-auto'>
                         {currenciesdb.map((element, index) => {
                             return (
-                                <div key={index} className='flex w-full md:w-1/3 sm:w-1/2 items-center flex-col my-4'>
+                                <div key={index} className='flex w-full md:w-1/3 sm:w-1/2 items-center flex-col my-4 md:my-10'>
                                     <img src={element.image} className='w-1/3' alt={element.text} />
                                     <h3 className='mt-2 md:mt-6 font-medium text-xl text-white'>{element.text}</h3>
                                 </div>

@@ -11,8 +11,8 @@ export default function Steps() {
     return (
         <div className='mx-auto'>
             <div className='w-full p-8 md:max-w-[1200px] flex flex-col mx-auto'>
-                <h1 className='text-3xl md:text-[48px] font-light text-center  my-8'>How to start with
-                    <span className='font-light md:font-bold inline md:block'>Mirror Trading?</span></h1>
+                <h1 className='text-3xl md:text-[48px] font-light text-center uppercase mt-25 mb-[68px]'>How to start with
+                    <span className='font-light md:font-bold inline md:block mt-4'>Mirror Trading?</span></h1>
                 {stepsdb.map((element, index) => {
                     if (element.order === 1) {
                         return (
