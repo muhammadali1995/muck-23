@@ -16,7 +16,7 @@ import crypto from './../assets/crypto_logo.png'
 
 export default function ExchangesTable() {
 
-    const Exchangedb = [
+    const exchangedb = [
         { order: '1', name: exmo, button: 1, markets: '183', },
         { order: '2', name: okex, button: 1, markets: '512', },
         { order: '3', name: bitvavo, button: 1, markets: '163', },
@@ -38,29 +38,28 @@ export default function ExchangesTable() {
     return (
         <div>
             <h1 className="font-extrabold text-5xl text-accent text-center">Exchanges</h1>
-            <p className="mt-4 mx-auto text-center w-1/4">The following crypto exchanges are officially supported
+            <p className="mt-4 mx-auto text-center w-full md:w-1/4 px-4">The following crypto exchanges are officially supported
                 by No name 1</p>
             <div className='w-100 overflow-auto'>
-                <div className="border-[#00000033] w-[1000px] mt-12 border max-w-[1000px] mx-auto" style={{ boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}>
+                <div className="border-[#00000033] w-[1000px] bg-[#F6F6F64D] mt-12 border max-w-[1000px] mx-auto" style={{ boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}>
                     <div className="flex border-b border-[#000] items-center justify-between py-5 px-8 text-[#333333] opacity-80 font-medium">
-                        <h3>#</h3>
+                        <h3 className='-mr-[25px]'>#</h3>
                         <h3>Name</h3>
-                        <h3></h3>
-                        <h3>#markets</h3>
+                        <h3 className='ml-[35px]'>#markets</h3>
                         <h3>Status</h3>
                         <h3>Uptime - month</h3>
                     </div>
                     <div>
-                        {Exchangedb.map((e, index) => {
+                        {exchangedb.map((e, index) => {
                             if (e.brand) {
                                 return (
                                     <div key={index} className="flex items-center justify-between border-b border-[#000] py-5 px-8 text-[#333333] opacity-80 font-medium">
                                         <h3 className='-mr-10'>{e.order}</h3>
-                                        <h3><img className='w-[100px]' src={e.name} /></h3>
-                                        <h3 className="text-sm w-32 text-center font-semibold -ml-20">{e.brand}</h3>
-                                        <h3 className='font-medium -ml-9'>{e.markets}</h3>
+                                        <h3><img alt={e.name} className='w-[100px]' src={e.name} /></h3>
+                                        <h3 className="text-sm w-32 text-center font-semibold -ml-10">{e.brand}</h3>
+                                        <h3 className='font-medium'>{e.markets}</h3>
                                         <h3 className="text-sm bg-[#30CEC7] px-2 py-1 rounded text-white cursor-pointer"> Exchange available</h3>
-                                        <h3 className='text-[#30CEC7] font-bold'>100%</h3>
+                                        <h3 className='text-[#30CEC7] font-bold mr-[30px]'>100%</h3>
                                     </div>
                                 )
                             }
@@ -68,11 +67,11 @@ export default function ExchangesTable() {
                                 return (
                                     <div key={index} className="flex items-center justify-between border-b border-[#000] py-5 px-8 text-[#333333] opacity-80 font-medium">
                                         <h3 className='-mr-10'>{e.order}</h3>
-                                        <h3><img className='w-[100px]' src={e.name} /></h3>
-                                        <h3 className="text-sm bg-[#045DB6] px-2 -ml-20 text-white py-1 rounded cursor-pointer">Official Partner</h3>
-                                        <h3 className='font-medium -ml-9'>{e.markets}</h3>
+                                        <h3><img alt={e.name} className='w-[100px]' src={e.name} /></h3>
+                                        <h3 className="text-sm bg-[#045DB6] px-2 -ml-10 text-white py-1 rounded cursor-pointer">Official Partner</h3>
+                                        <h3 className='font-medium'>{e.markets}</h3>
                                         <h3 className="text-sm bg-[#30CEC7] px-2 text-white py-1 rounded cursor-pointer"> Exchange available</h3>
-                                        <h3 className='text-[#30CEC7] font-bold'>100%</h3>
+                                        <h3 className='text-[#30CEC7] font-bold mr-[30px]'>100%</h3>
                                     </div>
                                 )
                             }

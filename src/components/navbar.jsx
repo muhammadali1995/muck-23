@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { BsCaretDown } from 'react-icons/bs'
 
 export default function Navbar({ navColor }) {
 
@@ -179,5 +178,6 @@ export default function Navbar({ navColor }) {
                 <button className="font-bold text-color-text text-xl">Menu</button>
             </div>
         </>
-    )
+
+)
 }
