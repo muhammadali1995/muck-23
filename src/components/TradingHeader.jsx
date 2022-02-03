@@ -1,6 +1,5 @@
 import teams from './../assets/teams.png';
 import Navbar from './Navbar';
-import Registration  from './Registration';
 
 export default function Trading() {
     return (
