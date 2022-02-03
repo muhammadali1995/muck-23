@@ -10,13 +10,13 @@ export default function Offers() {
     ]
     return (
         <div className='max-w-desktop mx-auto'>
-            <div className='w-full p-4 md:w-8/12 flex flex-col mx-auto'>
+            <div className='w-full p-8 md:w-[1200px] flex flex-col mx-auto'>
                 {offersdb.map((element, index) => {
                     if (element.order === 1) {
                         return (
                             <div key={index} className='flex flex-col lg:flex-row items-center justify-between my-8'>
                                 <div className='mr-0 lg:mr-6 w-full sm:w-2/3 '>
-                                    <h2 className='font-bold text-3xl'>{element.title}</h2>
+                                    <h2 className='font-bold text-3xl uppercase'>{element.title}</h2>
                                     <div className='h-4 w-72 mt-2 hidden sm:block' style={{ background: 'linear-gradient(90.13deg, #00AECC ,rgba(4, 93, 182, 0.5))',}}></div>
                                     <p className='font-medium text-base mt-4'>{element.text}</p>
                                 </div>
@@ -33,7 +33,7 @@ export default function Offers() {
                                     <img alt={element.title} src={element.img} className='w-full h-full' />
                                 </div>
                                 <div className='ml-0 lg:ml-6 w-full sm:w-2/3'>
-                                    <h2 className='font-bold text-3xl'>{element.title}</h2>
+                                    <h2 className='font-bold text-3xl uppercase'>{element.title}</h2>
                                     <div className='w-64 h-4 hidden sm:block mt-2' style={{ background: 'linear-gradient(90.13deg, #00AECC 5.66%, rgba(4, 93, 182, 0.5) 106.16%)',}}></div>
                                     <p className='font-medium text-base mt-4'>{element.text}</p>
                                 </div>

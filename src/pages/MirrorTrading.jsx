@@ -1,5 +1,11 @@
+import MirrorTraderMain from './../components/MirrorTraderMain'
+import Currencies from './../components/Currencies'
+
 export default function MirrorTrading() {
     return (
-        <h1>Mirror Trading</h1>
+        <>
+            <MirrorTraderMain />
+            <Currencies />
+        </>
     )
 }
