@@ -1,5 +1,15 @@
+import { AutomaticTradingHeader } from "../components/AutomaticTradingHeader";
+import Currencies from "../components/Currencies";
+import Footer from "../components/Footer";
+import MarketPlace from "../components/Marketplace";
+
 export default function Trading() {
     return (
-        <h1>Trading</h1>
+        <>
+            <AutomaticTradingHeader />
+            <Currencies />
+            <MarketPlace />
+            <Footer />
+        </>
     )
 }
