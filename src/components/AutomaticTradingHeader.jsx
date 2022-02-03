@@ -3,32 +3,34 @@ import Registration from "./Registration";
 import headerImage from './../assets/automatictradingheader.png';
 
 export const AutomaticTradingHeader = () => {
-    return <div className='bg-dark-primary home-header px-10 md:px-16 lg:px-28 2xl:px-[200px] 3xl:pl-75 3xl:pr-80'>
-        <div className="lg:pt-16 lg:pb-11">
-            <Registration color={'text-white'} />
-        </div>
-        <Navbar navColor={'text-white'} />
-        <div className='grid grid-cols-2'>
-            <div className="py-10 lg:py-16 2xl:pt-[149px] 2xl:pb-[307px] col-span-2 lg:col-span-1 text-center lg:text-left">
-                <h1 className="header-title text-white">
-                    Bots don't
-                    <br />
-                    <span className="text-accent">
-                        need sleep
-                    </span>
-                </h1>
-                <p className="header-text text-white mt-[18px]">
-                    Become a better trader. Powerfu l, AI-powered
-                    <br className='hidden lg:block' />
-                    crypto trading bot to help you save time, trade
-                    <br className='hidden lg:block' />
-                    24/7, and automate your trading.
-                </p>
-                <button className="header-btn-try mt-5 xl:mt-9">try it now</button>
+    return <div className="bg-dark-primary">
+        <div className='max-w-[1200px] mx-auto'>
+            <div className="lg:py-[50px]">
+                <Registration color={'text-[#fff]'} />
             </div>
-            <div className="col-span-2 lg:col-span-1 pb-17.5 sm:py-20 lg:pt-32 xl:pt-[171px] lg:pb-44 xl:pb-[235px]">
-                <img src={headerImage} alt="img-header" className="w-full max-h-[550px] h-full" />
+            <Navbar navColor={'text-white'} />
+            <div className="mx-auto w-full pt-20 pb-40 text-white flex items-center flex-col px-8 lg:px-0 lg:flex-row justify-between">
+                <div className="w-full mr-6 lg:w-1/2 m-4">
+                    <h1 className="header-title text-white">
+                        Bots don't
+                        <br />
+                        <span className="text-accent">
+                            need sleep
+                        </span>
+                    </h1>
+                    <p className="header-text text-white mt-[18px]">
+                        Become a better trader. Powerfu l, AI-powered
+                        <br className='hidden lg:block' />
+                        crypto trading bot to help you save time, trade
+                        <br className='hidden lg:block' />
+                        24/7, and automate your trading.
+                    </p>
+                    <button className="header-btn-try mt-5 xl:mt-9">try it now</button>
+                </div>
+                <div>
+                    <img alt="robots" src={headerImage} />
+                </div>
             </div>
         </div>
-    </div>;
+    </div>
 };

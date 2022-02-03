@@ -4,7 +4,7 @@ import Registration from './../components/Registration'
 
 export default function MirrorTraderMain() {
     return (
-        <div className="bg-[#022F5B]">
+        <div className="bg-dark-primary">
             <div className='max-w-[1200px] mx-auto'>
                 <div className="lg:py-[50px]">
                     <Registration color={'text-[#fff]'} />

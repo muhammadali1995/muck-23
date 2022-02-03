@@ -15,7 +15,7 @@ export default function Home() {
             <HomeCopyTraders />
             <HomeOpinion />
             <HomeMedia />
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
