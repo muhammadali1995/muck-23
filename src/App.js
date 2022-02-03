@@ -8,6 +8,7 @@ import Pricing from './pages/Pricing';
 import Signals from './pages/Signals';
 import Trading from './pages/Trading';
 import WebTrader from './pages/WebTrader';
+import Solution from './pages/Solution';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path='/crypto-signals' element={<Signals />} />
           <Route path='/copy-trading' element={<MirrorTrading />} />
           <Route path='/web-trader' element={<WebTrader />} />
-          <Route path='/exchanges' element={<Exchanges />} />
+          <Route path='/solution' element={<Solution />} />
           <Route path="/about" element={<About />}></Route>
           <Route path="/exchanges" element={<Exchanges />}></Route>
           <Route path="/pricing" element={<Pricing />}></Route>
