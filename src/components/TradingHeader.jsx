@@ -7,7 +7,7 @@ export default function Trading() {
             <div className='px-80 py-[90px]'>
                 <Navbar navColor={'text-white'} />
             </div>
-            <div className="mx-auto flex flex-col  lg:flex-row p-4 md:px-20 lg:p-0 items-start justify-center max-w-8/12">
+            <div className="mx-auto flex flex-col  lg:flex-row p-8 md:px-20 lg:p-0 items-start justify-center max-w-[1200px]">
                 <div className="text-white md:py-20 xl:pt-[168px] xl:pb-[212px] w-full lg:w-1/3">
                     <h1 className="header-title header-title mb-[17px]">
                         Who is

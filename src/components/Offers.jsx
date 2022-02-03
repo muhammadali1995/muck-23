@@ -10,7 +10,7 @@ export default function Offers() {
     ]
     return (
         <div className='max-w-desktop mx-auto'>
-            <div className='w-full p-4 md:w-8/12 flex flex-col mx-auto'>
+            <div className='w-full p-8 md:w-[1200px] flex flex-col mx-auto'>
                 {offersdb.map((element, index) => {
                     if (element.order === 1) {
                         return (

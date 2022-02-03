@@ -14,12 +14,14 @@ export default function Paragraphs() {
         { text: 'With advanced ‘Close All’ control, traders can close any transaction: profitable, losing, buy, sell and open positions with just one click.' }
     ]
     return (
-        <div className="max-w-[1000px] mx-auto">
+        <div className="max-w-[1200px] p-8 mx-auto">
             <h1 className="font-bold text-[48px] my-[60px]">More Features Included</h1>
-            {moreInformationdb.map(element => {
+            {moreInformationdb.map((element,index) => {
                 return (
-                    <div className="flex my-[12px]">
-                        <div className="w-[13px] h-[13px] bg-[#045DB6] rounded-full mr-2"></div>
+                    <div key={index} className="flex items-center my-[12px]">
+                        <div className="flex items-start">
+                            <div className="w-[13px] h-[13px] bg-[#045DB6] rounded-full mr-2"></div>
+                        </div>
                         <p className="font-medium">{element.text}</p>
                     </div>
                 )

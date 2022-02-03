@@ -6,7 +6,7 @@ import clock from './../assets/clock.png'
 export default function Contact() {
     const [openTab, setOpenTab] = useState(1);
     return (
-        <div className="max-w-desktop mx-auto my-20">
+        <div className="max-w-desktop mx-auto my-20 p-8">
             <h2 className="text-4xl font-bold text-[#045DB6] text-center mt-8 uppercase">CONTACT Us </h2>
             <div className="w-full md:w-8/12 mx-auto bg-white mt-12" style={{ filter: 'drop-shadow(6px 7px 14px rgba(0, 0, 0, 0.35))', }}>
                 <form>

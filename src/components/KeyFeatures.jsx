@@ -17,8 +17,8 @@ export default function KeyFeatures() {
         { image: unlock, text: 'Keep your MT4 login and password' }
     ]
     return (
-        <div className='p-4 -mt-28'>
-            <div className='bg-cover py-20 text-center rounded-2xl w-full max-w-desktop md:w-[1000px] mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
+        <div className='-mt-28'>
+            <div className='bg-cover py-20 text-center rounded-2xl w-full max-w-desktop max-w-[1200px] p-8 mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
                 <h3 className='text-3xl font-bold uppercase text-white m-2 sm:m-0'>Key Features Include</h3>
                 <div className='flex flex-wrap mt-8 w-10/12 mx-auto'>
                     {currenciesdb.map((element, index) => {
