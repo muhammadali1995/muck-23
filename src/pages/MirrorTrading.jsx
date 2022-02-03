@@ -8,8 +8,10 @@ export default function MirrorTrading() {
     return (
         <>
             <MirrorTraderMain />
+            <div className='-mt-28'>
             <Currencies />
-            <Steps/>
+            </div>
+            <Steps />
             <Marketplace />
             <div className='mt-20'>
                 <Footer />
