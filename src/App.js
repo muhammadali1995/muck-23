@@ -9,22 +9,14 @@ import Signals from './pages/Signals';
 import Trading from './pages/Trading';
 import WebTrader from './pages/WebTrader';
 import Solution from './pages/Solution';
-import Navbar from "./components/Navbar";
-import Registration from "./components/Registration";
 import Footer from "./components/Footer";
+import NavWrapper from "./components/NavWrapper";
 function App() {
   return (
     <>
       <div className="home-header">
         <BrowserRouter>
-          <div className="side-padding">
-            <div className="md:py-5 lg:py-7 2xl:py-10">
-              <Registration />
-            </div>
-            <div className="py-5 lg:py-0">
-              <Navbar navColor={'text-color-text'} />
-            </div>
-          </div>
+         <NavWrapper/> 
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path='/automatic-trading' element={<Trading />} />

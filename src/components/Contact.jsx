@@ -42,7 +42,7 @@ export default function Contact() {
                             </div>
                         </div>
                         <div className="flex justify-center">
-                            <button class="bg-[#045DB6] mt-4 mx-auto py-4 text-center text-white w-1/2">SUBMIT</button>
+                            <button className="bg-[#045DB6] mt-4 mx-auto py-4 text-center text-white w-1/2">SUBMIT</button>
                         </div>
                     </div>
                     <div className={openTab === 2 ? 'block p-6' : 'hidden'}>
@@ -77,7 +77,7 @@ export default function Contact() {
                             </div>
                         </div>
                         <div className="flex justify-center">
-                            <button class="bg-[#045DB6] mt-4 mx-auto py-4 text-center text-white w-1/2">SUBMIT</button>
+                            <button className="bg-[#045DB6] mt-4 mx-auto py-4 text-center text-white w-1/2">SUBMIT</button>
                         </div>
                     </div>
                 </form>

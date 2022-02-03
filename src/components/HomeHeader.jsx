@@ -1,7 +1,7 @@
 import headerImage from './../assets/home-header.png';
 
 export const HomeHeader = () => {
-    return <div className="side-padding">
+    return <div className="side-padding bg-[#0089d31a] opacity-1">
         <div className='grid grid-cols-2'>
             <div className="py-10 lg:py-16 2xl:pt-[128px] 2xl:pb-[307px] col-span-2 lg:col-span-1 text-center md:text-left">
                 <h1 className="header-title text-color-text">

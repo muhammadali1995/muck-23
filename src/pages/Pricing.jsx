@@ -5,7 +5,7 @@ import PricingMain from '../components/PricingMain'
 export default function Pricing() {
     return (
         <>
-            <div className='bg-[#0089D31A]'>
+            <div className='bg-[rgba(0, 137, 211, 0.1)]'>
                 <PricingMain />
             </div>
             <Marketplace />
