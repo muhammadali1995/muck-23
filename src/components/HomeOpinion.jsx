@@ -72,14 +72,18 @@ export const HomeOpinion = () => {
                     modules={[Navigation]}
                     spaceBetween={40}
                     slidesPerView={2}
+                // navgation={{
+                //     prevEl: <SwiperPrev />,
+                //     nextEl: <SwiperNext />
+                // }}
                 >
                     {cardData.map(
-                        (item, i) => {
-                            return <div key={i}>
-                                <SwiperSlide>
+                        (item) => {
+                            return (
+                                <SwiperSlide key={item.id}>
                                     <HomeReviewCard name={item.name} review={item.review} imageSrc={item.imageSrc} />
                                 </SwiperSlide>
-                            </div>
+                            );
                         }
                     )}
                 </Swiper>
@@ -93,11 +97,11 @@ export const HomeOpinion = () => {
                 >
                     {cardData.map(
                         (item, i) => {
-                            return <div key={i * 2}>
-                                <SwiperSlide>
+                            return (
+                                <SwiperSlide key={i}>
                                     <HomeReviewCard name={item.name} review={item.review} imageSrc={item.imageSrc} />
                                 </SwiperSlide>
-                            </div>
+                            )
                         }
                     )}
                 </Swiper>
