@@ -16,7 +16,7 @@
     }
 
     .header-title{
-        @apply text-[50px] xl:text-header-title leading-[60px] xl:leading-header-title font-extrabold;
+        @apply text-3xl sm:text-[50px] xl:text-header-title sm:leading-[60px] xl:leading-header-title font-extrabold;
     },
 
     .header-text{

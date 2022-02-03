@@ -15,7 +15,7 @@ export default function SolutionMain() {
                 <div className="pt-20 pb-40">
                     <div className="mx-auto  w-full flex items-center flex-col p-8 lg:p-0 lg:flex-row justify-between">
                         <div className="w-full mr-6 m-4">
-                            <h1 className="font-extrabold text-2xl md:text-6xl"><span className='text-accent block'> Jumpstart </span>
+                            <h1 className="header-title"><span className='text-accent block'> Jumpstart </span>
                                 your trading.</h1>
                             <div className="font-medium mt-10 text-base w-full flex items-center">
                                 <p>Copy. Acticate </p>
