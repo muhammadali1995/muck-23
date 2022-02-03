@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import { HomeAutomateTrade } from "../components/HomeAutomateTrade";
 import { HomeCopyTraders } from "../components/HomeCopyTraders";
 import { HomeHeader } from "../components/HomeHeader";

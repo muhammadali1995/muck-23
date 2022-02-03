@@ -1,6 +1,5 @@
 import { AutomaticTradingHeader } from "../components/AutomaticTradingHeader";
 import Currencies from "../components/Currencies";
-import Footer from "../components/Footer";
 import MarketPlace from "../components/Marketplace";
 import Steps from "../components/Steps";
 

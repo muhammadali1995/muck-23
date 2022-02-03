@@ -1,6 +1,5 @@
 import SolutionMain from "../components/SolutionMain";
 import Marketplace from './../components/Marketplace'
-import Footer from './../components/Footer';
 import step1 from './../assets/STEP 1.png';
 import step2 from './../assets/STEP 2.png';
 import step3 from './../assets/STEP 3.png';
