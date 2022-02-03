@@ -2,10 +2,8 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 export default function Navbar({ navColor }) {
-    const [showMobileMenu, setshowMobileMenu] = useState(false);
     return (
         <div>
-
             <nav className=" px-2 sm:px-4 py-2.5">
                 <div className="container w-full flex flex-wrap justify-end items-center">
                     <div className="flex justify-end lg:order-2 ml-auto w-full">
@@ -15,7 +13,7 @@ export default function Navbar({ navColor }) {
                     </div>
                     <div className="ml-auto">
                         <div className="hidden justify-items-end  items-center w-full lg:bg-transparent md:flex md:w-auto lg:order-1" id="mobile-menu-2">
-                            <ul className="flex flex-col mt-4 md:flex-row space-y-3 md:space-y-0 md:space-x-8 md:mt-0 md:text-sm md:font-medium ml-auto">
+                            <ul className={`flex flex-col mt-4 md:flex-row space-y-3 md:space-y-0 md:space-x-8 md:mt-0 md:text-sm md:font-medium ml-auto ${navColor}`}>
                                 <button
                                     id="serviceDropdownButton"
                                     data-dropdown-toggle="serviceDropdown"

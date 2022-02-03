@@ -7,7 +7,7 @@ export const HomeHeader = () => {
     return <>
         <div className="home-header bg-secondary px-10 md:px-16 lg:px-28 2xl:px-[200px] 3xl:pl-75 3xl:pr-[312px]">
             <div className="md:py-5 lg:py-7 2xl:py-10">
-                <Registration />
+                <Registration color={'text-color-text'} />
             </div>
             <div className="py-5 lg:py-0">
                 <Navbar navColor={'text-color-text'} />

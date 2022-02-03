@@ -1,5 +1,9 @@
+import { AutomaticTradingHeader } from "../components/AutomaticTradingHeader";
+
 export default function Trading() {
     return (
-        <h1>Trading</h1>
+        <>
+            <AutomaticTradingHeader />
+        </>
     )
 }

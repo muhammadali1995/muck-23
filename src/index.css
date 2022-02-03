@@ -12,7 +12,7 @@
     }
 
     .register-btn{
-        @apply text-color-text font-medium text-lg leading-[22px];
+        @apply font-medium text-lg leading-[22px];
     }
 
     .header-title{
