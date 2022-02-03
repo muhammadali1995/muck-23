@@ -8,7 +8,7 @@ export default function Trading() {
     return (
         <>
             <AutomaticTradingHeader />
-            <div className="-mt-32">
+            <div className="-mt-25 sm:-mt-32">
                 <Currencies />
             </div>
             <Steps />
