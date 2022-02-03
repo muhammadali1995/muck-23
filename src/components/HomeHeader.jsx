@@ -13,7 +13,7 @@ export const HomeHeader = () => {
                 <Navbar navColor={'text-color-text'} />
             </div>
             <div className='grid grid-cols-2'>
-                <div className="py-10 lg:py-16 2xl:pt-[128px] 2xl:pb-[307px] col-span-2 lg:col-span-1 text-center lg:text-left">
+                <div className="py-10 lg:py-16 2xl:pt-32 2xl:pb-[307px] col-span-2 lg:col-span-1 text-center lg:text-left">
                     <h1 className="header-title text-color-text">
                         Easy
                         <br />
