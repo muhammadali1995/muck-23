@@ -16,7 +16,7 @@ import crypto from './../assets/crypto_logo.png'
 
 export default function ExchangesTable() {
 
-    const Exchangedb = [
+    const exchangedb = [
         { order: '1', name: exmo, button: 1, markets: '183', },
         { order: '2', name: okex, button: 1, markets: '512', },
         { order: '3', name: bitvavo, button: 1, markets: '163', },
@@ -51,7 +51,7 @@ export default function ExchangesTable() {
                         <h3>Uptime - month</h3>
                     </div>
                     <div>
-                        {Exchangedb.map((e, index) => {
+                        {exchangedb.map((e, index) => {
                             if (e.brand) {
                                 return (
                                     <div key={index} className="flex items-center justify-between border-b border-[#000] py-5 px-8 text-[#333333] opacity-80 font-medium">

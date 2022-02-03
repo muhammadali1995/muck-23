@@ -7,7 +7,7 @@ import cardano from './../assets/cardano.png'
 import dogecoin from './../assets/dogecoin.png'
 
 export default function Currencies() {
-    const Currenciesdb = [
+    const currenciesdb = [
         { image: bitcoin, text: 'Bitcoin' },
         { image: crypto, text: 'Ethereum' },
         { image: litecoin, text: 'Litecoin' },
@@ -22,7 +22,7 @@ export default function Currencies() {
                     <span className='inline-block sm:block font-normal'>on our Platform</span>
                 </h3>
                 <div className='flex flex-wrap mt-8 w-10/12 mx-auto'>
-                    {Currenciesdb.map((element, index) => {
+                    {currenciesdb.map((element, index) => {
                         return (
                             <div key={index} className='flex w-full md:w-1/3 sm:w-1/2 items-center flex-col my-4'>
                                 <img src={element.image} className='w-1/3' alt={element.text}/>

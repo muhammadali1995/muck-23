@@ -10,7 +10,7 @@ import Pricing from './pages/Pricing';
 import Signals from './pages/Signals';
 import Solution from './pages/Solution';
 import Trading from './pages/Trading';
-import WebTrading from './pages/Web_Trader';
+import WebTrading from './pages/WebTrader';
 
 function App() {
   return (
