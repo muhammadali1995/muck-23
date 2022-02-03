@@ -1,7 +1,7 @@
 export default function Steps({ stepsdb }) {
     return (
         <div className='mx-auto'>
-            {stepsdb.map((element, index) => {
+            {stepsdb?.map((element, index) => {
                 if (element.order === 1) {
                     return (
                         <div key={index} className='flex flex-col-reverse lg:flex-row items-center justify-between mb-10 sm:mb-20 lg:mb-40'>
