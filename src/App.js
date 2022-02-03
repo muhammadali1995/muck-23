@@ -1,32 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Exchanges from './pages/Exchanges';
-import MirrorTrading from './pages/Mirror_Trading';
+import MirrorTrading from './pages/MirrorTrading';
 import Pricing from './pages/Pricing';
 import Signals from './pages/Signals';
-import Solution from './pages/Solution';
 import Trading from './pages/Trading';
-import WebTrading from './pages/WebTrader';
+import WebTrader from './pages/WebTrader';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/exchanges" element={<Exchanges />}></Route>
-        <Route path="/mirror-trading" element={<MirrorTrading />}></Route>
-        <Route path="/pricing" element={<Pricing />}></Route>
-        <Route path="/signals" element={<Signals />}></Route>
-        <Route path="/solution" element={<Solution />}></Route>
-        <Route path="/trading" element={<Trading />}></Route>
-        <Route path="/web-trader" element={<WebTrading />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path='/automatic-trading' element={<Trading />} />
+          <Route path='/crypto-signals' element={<Signals />} />
+          <Route path='/copy-trading' element={<MirrorTrading />} />
+          <Route path='/web-trader' element={<WebTrader />} />
+          <Route path='/exchanges' element={<Exchanges />} />
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/exchanges" element={<Exchanges />}></Route>
+          <Route path="/pricing" element={<Pricing />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
