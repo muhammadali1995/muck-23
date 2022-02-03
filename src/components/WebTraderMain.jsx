@@ -11,7 +11,7 @@ export default function WebTraderMain() {
                 </div>
                 <Navbar navColor={'text-color-text'} />
 
-                <div className="w-full  pt-20 pb-40 flex items-center flex-col lg:flex-row justify-between">
+                <div className="w-full pt-20 pb-[105px] flex items-center flex-col lg:flex-row justify-between">
                     <div className="w-full mr-6 lg:w-1/2">
                         <h1 className="font-extrabold text-xl md:text-6xl">Our
                             Webtrader <span className='text-accent'> Platform</span></h1>
