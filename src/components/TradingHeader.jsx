@@ -5,7 +5,7 @@ export default function Trading() {
     return (
         <div className="max-w-desktop mx-auto bg-dark-primary">
             <div className='px-80 py-[90px]'>
-                <Navbar navColor={'text-white'} />
+                <Navbar navColor={'text-[#fff]'} />
             </div>
             <div className="mx-auto flex flex-col  lg:flex-row p-8 md:px-20 lg:p-0 items-start justify-center max-w-[1200px]">
                 <div className="text-white md:py-20 xl:pt-[168px] xl:pb-[212px] w-full lg:w-1/3">
@@ -23,7 +23,7 @@ export default function Trading() {
                     <button className='header-btn-try mt'>TRY IT NOW</button>
                 </div>
                 <div className='relative  justify-center w-full lg:w-auto hidden sm:flex'>
-                    <img src={teams}  alt='teams'/>
+                    <img src={teams} alt='teams' />
                 </div>
             </div>
         </div>

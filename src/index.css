@@ -16,7 +16,11 @@
     }
 
     .header-title{
+<<<<<<< HEAD
         @apply text-4xl sm:text-[50px] xl:text-header-title sm:leading-[60px] xl:leading-header-title font-extrabold;
+=======
+        @apply text-3xl sm:text-[50px] xl:text-header-title sm:leading-[60px] xl:leading-header-title font-extrabold;
+>>>>>>> master
     },
 
     .header-text{
