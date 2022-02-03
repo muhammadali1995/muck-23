@@ -6,8 +6,11 @@ import SolutionSteps from "../components/SolutionSteps";
 export default function Solution() {
     return (
         <>
+            <div className="bg-[#0089D31A]">
+                
+            </div>
             <SolutionMain />
-            <SolutionSteps/>
+            <SolutionSteps />
             <Marketplace />
             <div className='mt-20'>
                 <Footer />
