@@ -17,21 +17,23 @@ export default function Currencies() {
     ]
     return (
         <div className='p-8'>
-            <div className='bg-cover py-20 text-center rounded-2xl w-full md:max-w-[1200px] mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
-                <h3 className='text-3xl font-bold uppercase text-white m-2 sm:m-0'>Currencies you can find
-                    <span className='inline-block sm:block font-normal'>on our Platform</span>
-                </h3>
-                <div className='flex flex-wrap mt-8 w-10/12 mx-auto'>
-                    {currenciesdb.map((element, index) => {
-                        return (
-                            <div key={index} className='flex w-full md:w-1/3 sm:w-1/2 items-center flex-col my-4'>
-                                <img src={element.image} className='w-1/3' alt={element.text}/>
-                                <h3 className='mt-6 font-medium text-xl text-white'>{element.text}</h3>
-                            </div>
-                        )
-                    })}
+            <div className='bg-cover text-center rounded-2xl w-full md:max-w-[1200px] mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
+                <div className='py-20'>
+                    <h3 className='text-3xl font-bold uppercase text-white m-2 sm:m-0'>Currencies you can find
+                        <span className='inline-block sm:block font-normal'>on our Platform</span>
+                    </h3>
+                    <div className='flex flex-wrap mt-8 w-10/12 mx-auto'>
+                        {currenciesdb.map((element, index) => {
+                            return (
+                                <div key={index} className='flex w-full md:w-1/3 sm:w-1/2 items-center flex-col my-4'>
+                                    <img src={element.image} className='w-1/3' alt={element.text} />
+                                    <h3 className='mt-6 font-medium text-xl text-white'>{element.text}</h3>
+                                </div>
+                            )
+                        })}
+                    </div>
                 </div>
-                <button className="w-full pr-8 cursor-pointer font-bold text-right text-white text-xl">And more...</button>
+                <button className="w-full pr-8 cursor-pointer font-bold text-right pb-8 text-white text-xl">And more...</button>
             </div>
         </div>
     )
