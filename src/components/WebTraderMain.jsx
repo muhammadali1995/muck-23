@@ -2,8 +2,8 @@ import laptop from './../assets/WebTrader_Laptop_design.png'
 
 export default function WebTraderMain() {
     return (
-        <div className="bg-[#0089D31A] py-20">
-            <div className="mx-auto max-w-[1000px] flex items-center flex-col p-4 lg:flex-row justify-between">
+        <div className="bg-[#0089D31A] pt-20 pb-40">
+            <div className="mx-auto max-w-[1000px] w-full flex items-center flex-col p-4 lg:flex-row justify-between">
                 <div className="w-full mr-6 lg:w-1/2 m-4">
                     <h1 className="font-extrabold text-[60px]">Our
                         Webtrader <span className='text-accent'> Platform</span></h1>

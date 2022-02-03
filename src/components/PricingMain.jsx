@@ -1,7 +1,7 @@
 export default function PricingMain() {
     return (
         <div>
-            <h1 className="font-extrabold text-5xl text-accent text-center">Pricing</h1>
+            <h1 className="font-extrabold header-title text-accent text-center">Pricing</h1>
             <p className="mt-4 mx-auto text-center w-full px-4 md:w-1/4">Become a member &amp; join many others who are happy to use our services.</p>
             <div className="w-100 overflow-auto">
                 <div className="flex mx-auto items-center max-w-[1000px] w-[1000px] mt-[96px] justify-start md:justify-center">

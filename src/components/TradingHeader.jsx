@@ -9,7 +9,7 @@ export default function Trading() {
             </div>
             <div className="mx-auto flex flex-col  lg:flex-row p-4 md:px-20 lg:p-0 items-start justify-center max-w-8/12">
                 <div className="text-white md:py-20 xl:pt-[168px] xl:pb-[212px] w-full lg:w-1/3">
-                    <h1 className="header-title text-5xl mb-[17px]">
+                    <h1 className="header-title header-title mb-[17px]">
                         Who is
                         <span className="text-accent"> No <br className='hidden xl:block' /> name 1</span>
                     </h1>
@@ -23,7 +23,7 @@ export default function Trading() {
                     <button className='header-btn-try mt'>TRY IT NOW</button>
                 </div>
                 <div className='relative  justify-center w-full lg:w-auto hidden sm:flex'>
-                    <img style={{height:'480px'}} src={teams}  alt='teams'/>
+                    <img src={teams}  alt='teams'/>
                 </div>
             </div>
         </div>
