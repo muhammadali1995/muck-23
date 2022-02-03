@@ -12,7 +12,7 @@ function HomeMedia() {
             <h1 className="font-bold text-28 lg:text-5xl text-uppercase mb-32 text-center uppercase">
                 No name 1 <span className='font-normal'>in the</span> <br /> Media
             </h1>
-            <div className="flex flex-col items-center lg:flex-row gap-x-[90px] lg:mb-16">
+            <div className="flex flex-col items-center lg:flex-row gap-x-[90px] lg:mb-16 flex-wrap">
                 <img src={telegraaf} alt="telegraaf" className="w-[264px] h-15 mb-12 lg:mb-0" />
                 <img src={blockonomi} alt="blockonomi" className="w-[363px] h-15 mb-12 lg:mb-0" />
                 <img src={rtl} alt="rtf" className="w-[307px] h-15 mb-12 lg:mb-0" />

@@ -13,7 +13,6 @@ export default function Navbar({ navColor }) {
                         className="nav-link flex items-center gap-2"
                         type="button">
                         Services
-                        <BsCaretDown className='py-0' />
                     </button>
                     <button
                         id="solutionsDropdownButton"
@@ -21,7 +20,6 @@ export default function Navbar({ navColor }) {
                         className="nav-link flex items-center gap-2"
                         type="button">
                         Solutions
-                        <BsCaretDown className='py-0' />
                     </button>
 
                     <Link to='/exchanges' className="nav-link">Market Place</Link>
@@ -31,7 +29,6 @@ export default function Navbar({ navColor }) {
                         className="nav-link flex items-center gap-2"
                         type="button">
                         Tools
-                        <BsCaretDown className='py-0' />
                     </button>
                     <button
                         id="aboutUsDropdownButton"
@@ -39,7 +36,6 @@ export default function Navbar({ navColor }) {
                         className="nav-link flex items-center gap-2"
                         type="button">
                         About Us
-                        <BsCaretDown className='py-0' />
                     </button>
                 </div>
                 <div
