@@ -23,7 +23,7 @@
         @apply text-base lg:text-lg font-medium leading-7;
     }
     .header-btn-try{
-        @apply px-17.5 py-6 bg-accent text-white font-medium text-2xl leading-header-btn-try uppercase;
+        @apply px-10 sm:px-17.5 py-6 bg-accent text-white font-medium text-lg lg:text-2xl leading-header-btn-try uppercase;
     }
 
     .partners-logo{

@@ -7,7 +7,7 @@ export default function Navbar({ navColor }) {
             <nav className=" px-2 sm:px-4 py-2.5">
                 <div className="container w-full flex flex-wrap justify-end items-center">
                     <div className="flex justify-end lg:order-2 ml-auto w-full">
-                        <button data-collapse-toggle="mobile-menu-2" type="button" className="p-2 ml-1 text-color-text font-bold md:hidden text-lg" aria-controls="mobile-menu-2" aria-expanded="false">
+                        <button data-collapse-toggle="mobile-menu-2" type="button" className={`${navColor} p-2 ml-1 font-bold md:hidden text-lg`} aria-controls="mobile-menu-2" aria-expanded="false">
                             Menu
                         </button>
                     </div>
@@ -192,7 +192,7 @@ export default function Navbar({ navColor }) {
                     </ul>
                 </div>
             </div>
-        </div>
+        </div >
 
     )
 }
