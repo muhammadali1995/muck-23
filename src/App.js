@@ -17,14 +17,14 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/About" element={<About />}></Route>
-        <Route path="/Exchanges" element={<Exchanges />}></Route>
-        <Route path="/Mirror_Trading" element={<MirrorTrading />}></Route>
-        <Route path="/Pricing" element={<Pricing />}></Route>
-        <Route path="/Signals" element={<Signals />}></Route>
-        <Route path="/Solution" element={<Solution />}></Route>
-        <Route path="/Trading" element={<Trading />}></Route>
-        <Route path="/Web_Trader" element={<WebTrading />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/exchanges" element={<Exchanges />}></Route>
+        <Route path="/mirror-trading" element={<MirrorTrading />}></Route>
+        <Route path="/pricing" element={<Pricing />}></Route>
+        <Route path="/signals" element={<Signals />}></Route>
+        <Route path="/solution" element={<Solution />}></Route>
+        <Route path="/trading" element={<Trading />}></Route>
+        <Route path="/web-trader" element={<WebTrading />}></Route>
       </Routes>
     </BrowserRouter>
   );
