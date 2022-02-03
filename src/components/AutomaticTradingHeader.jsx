@@ -2,8 +2,8 @@ import headerImage from './../assets/automatictradingheader.png';
 
 export const AutomaticTradingHeader = () => {
     return <div className='bg-dark-primary home-header px-10 md:px-24'>
-        <div className='grid grid-cols-2'>
-            <div className="py-10 lg:py-16 2xl:pt-[149px] 2xl:pb-[307px] col-span-2 lg:col-span-1 text-center lg:text-left">
+        <div className="mx-auto w-full pt-20 pb-40 text-white flex items-center flex-col px-8 lg:px-0 lg:flex-row justify-between">
+            <div className="w-full mr-6 lg:w-1/2 m-4">
                 <h1 className="header-title text-white">
                     Bots don't
                     <br />
@@ -20,9 +20,9 @@ export const AutomaticTradingHeader = () => {
                 </p>
                 <button className="header-btn-try mt-5 xl:mt-9">try it now</button>
             </div>
-            <div className="col-span-2 lg:col-span-1 pb-17.5 sm:py-20 lg:pt-32 xl:pt-[171px] lg:pb-44 xl:pb-[235px]">
-                <img src={headerImage} alt="img-header" className="w-full max-h-[550px] h-full" />
+            <div>
+                <img alt="robots" src={headerImage} />
             </div>
         </div>
-    </div>;
+    </div>
 };
