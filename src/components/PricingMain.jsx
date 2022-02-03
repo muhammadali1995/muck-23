@@ -2,7 +2,7 @@ export default function PricingMain() {
     return (
         <div>
             <h1 className="font-extrabold text-5xl text-accent text-center">Pricing</h1>
-            <p className="mt-4 mx-auto text-center w-1/4">Become a member &amp; join many others who are happy to use our services.</p>
+            <p className="mt-4 mx-auto text-center w-full px-4 md:w-1/4">Become a member &amp; join many others who are happy to use our services.</p>
             <div className="w-100 overflow-auto">
                 <div className="flex mx-auto items-center max-w-[1000px] w-[1000px] mt-[96px] justify-start md:justify-center">
                     <div className="mb-[47px]">
@@ -60,7 +60,7 @@ export default function PricingMain() {
                         <h3 className="bg-[#0089D31A] w-full font-bold px-6 py-5">Algorithm Intelligence</h3>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }
