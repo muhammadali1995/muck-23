@@ -17,7 +17,7 @@ export default function Currencies() {
     ]
     return (
         <div className='p-8'>
-            <div className='bg-cover text-center rounded-2xl w-full md:max-w-[1200px] mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
+            <div className='bg-cover text-center rounded-3xl w-full md:max-w-[1200px] mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
                 <div className='py-20'>
                     <h3 className='text-xl md:text-3xl font-bold uppercase text-white m-2 sm:m-0'>Currencies you can find
                         <span className='inline-block sm:block font-normal'>on our Platform</span>
@@ -27,13 +27,13 @@ export default function Currencies() {
                             return (
                                 <div key={index} className='flex w-full md:w-1/3 sm:w-1/2 items-center flex-col my-4'>
                                     <img src={element.image} className='w-1/3' alt={element.text} />
-                                    <h3 className='mt-6 font-medium text-xl text-white'>{element.text}</h3>
+                                    <h3 className='mt-2 md:mt-6 font-medium text-xl text-white'>{element.text}</h3>
                                 </div>
                             )
                         })}
                     </div>
                 </div>
-                <button className="w-full pr-8 cursor-pointer font-bold text-right pb-8 text-white text-xl">And more...</button>
+                <button className="w-full pr-0 md:pr-8 cursor-pointer font-bold pb-8 text-white text-center md:text-right text-xl">And more...</button>
             </div>
         </div>
     )
