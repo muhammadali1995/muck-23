@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { BsCaretDown } from 'react-icons/bs'
 
 export default function Navbar({ navColor }) {
 

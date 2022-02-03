@@ -22,7 +22,7 @@ export const HomeReviewCard = ({ name, review, imageSrc }) => {
             </div>
         </div>
         <div className="w-full h-[85px] flex justify-center bg-primary rounded-b-[30px]">
-            <img src={imageSrc} alt="user-image" className="relative -top-[70%] w-[113px] h-[113px] rounded-full" />
+            <img src={imageSrc} className="relative -top-[70%] w-[113px] h-[113px] rounded-full"  alt="user-image"/>
         </div>
     </div>;
 };
