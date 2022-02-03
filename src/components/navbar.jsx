@@ -179,5 +179,6 @@ export default function Navbar({ navColor }) {
                 <button className="font-bold text-color-text text-xl">Menu</button>
             </div>
         </>
-    )
+
+)
 }

@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "./Navbar";
 
 import Registration from "../components/Registration";
 import headerImage from './../assets/home-header.png';
