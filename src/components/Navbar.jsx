@@ -1,41 +1,61 @@
 import { Link } from "react-router-dom";
+import { useState } from 'react';
 
 export default function Navbar({ navColor }) {
-
+    const [showMobileMenu, setshowMobileMenu] = useState(false);
     return (
-        <>
-            <div className="hidden lg:flex justify-end">
-                <div className={`flex gap-x-12 ${navColor}`}>
-                    <button
-                        id="serviceDropdownButton"
-                        data-dropdown-toggle="serviceDropdown"
-                        className="nav-link flex items-center gap-2"
-                        type="button">
-                        Services
-                    </button>
-                    <button
-                        id="solutionsDropdownButton"
-                        data-dropdown-toggle="solutionsDropdown"
-                        className="nav-link flex items-center gap-2"
-                        type="button">
-                        Solutions
-                    </button>
+        <div>
 
-                    <Link to='/exchanges' className="nav-link">Market Place</Link>
-                    <button
-                        id="toolsDropdownButton"
-                        data-dropdown-toggle="toolsDropdown"
-                        className="nav-link flex items-center gap-2"
-                        type="button">
-                        Tools
-                    </button>
-                    <button
-                        id="aboutUsDropdownButton"
-                        data-dropdown-toggle="aboutUsDropdown"
-                        className="nav-link flex items-center gap-2"
-                        type="button">
-                        About Us
-                    </button>
+            <nav className=" px-2 sm:px-4 py-2.5">
+                <div className="container w-full flex flex-wrap justify-end items-center">
+                    <div className="flex justify-end lg:order-2 ml-auto w-full">
+                        <button data-collapse-toggle="mobile-menu-2" type="button" className="p-2 ml-1 text-color-text font-bold md:hidden text-lg" aria-controls="mobile-menu-2" aria-expanded="false">
+                            Menu
+                        </button>
+                    </div>
+                    <div className="ml-auto">
+                        <div className="hidden justify-items-end  items-center w-full lg:bg-transparent md:flex md:w-auto lg:order-1" id="mobile-menu-2">
+                            <ul className="flex flex-col mt-4 md:flex-row space-y-3 md:space-y-0 md:space-x-8 md:mt-0 md:text-sm md:font-medium ml-auto">
+                                <button
+                                    id="serviceDropdownButton"
+                                    data-dropdown-toggle="serviceDropdown"
+                                    className="nav-link flex items-center gap-2"
+                                    type="button">
+                                    Services
+                                </button>
+                                <button
+                                    id="solutionsDropdownButton"
+                                    data-dropdown-toggle="solutionsDropdown"
+                                    className="nav-link flex items-center gap-2"
+                                    type="button">
+                                    Solutions
+                                </button>
+
+                                <Link to='/exchanges' className="nav-link">Market Place</Link>
+                                <button
+                                    id="toolsDropdownButton"
+                                    data-dropdown-toggle="toolsDropdown"
+                                    className="nav-link flex items-center gap-2"
+                                    type="button">
+                                    Tools
+                                </button>
+                                <button
+                                    id="aboutUsDropdownButton"
+                                    data-dropdown-toggle="aboutUsDropdown"
+                                    className="nav-link flex items-center gap-2"
+                                    type="button">
+                                    About Us
+                                </button>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <div className="flex justify-end">
+                <div className={`flex gap-x-12 ${navColor}`}>
                 </div>
                 <div
                     id="serviceDropdown"
@@ -174,10 +194,7 @@ export default function Navbar({ navColor }) {
                     </ul>
                 </div>
             </div>
-            <div className="flex justify-end lg:hidden">
-                <button className="font-bold text-color-text text-xl">Menu</button>
-            </div>
-        </>
+        </div>
 
-)
+    )
 }

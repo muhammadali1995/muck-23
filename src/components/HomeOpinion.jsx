@@ -72,16 +72,18 @@ export const HomeOpinion = () => {
                     modules={[Navigation]}
                     spaceBetween={40}
                     slidesPerView={2}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
+                // navgation={{
+                //     prevEl: <SwiperPrev />,
+                //     nextEl: <SwiperNext />
+                // }}
                 >
                     {cardData.map(
-                        (data) => {
-                            return <div key={data.name}>
-                                <SwiperSlide>
-                                    <HomeReviewCard name={data.name} review={data.review} imageSrc={data.imageSrc} />
+                        (item) => {
+                            return (
+                                <SwiperSlide key={item.id}>
+                                    <HomeReviewCard name={item.name} review={item.review} imageSrc={item.imageSrc} />
                                 </SwiperSlide>
-                            </div>
+                            );
                         }
                     )}
                 </Swiper>
@@ -94,12 +96,12 @@ export const HomeOpinion = () => {
                     slidesPerView={1}
                 >
                     {cardData.map(
-                        (data) => {
-                            return <div key={data.name}>
-                                <SwiperSlide>
-                                    <HomeReviewCard name={data.name} review={data.review} imageSrc={data.imageSrc} />
+                        (item, i) => {
+                            return (
+                                <SwiperSlide key={i}>
+                                    <HomeReviewCard name={item.name} review={item.review} imageSrc={item.imageSrc} />
                                 </SwiperSlide>
-                            </div>
+                            )
                         }
                     )}
                 </Swiper>
