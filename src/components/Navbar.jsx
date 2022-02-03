@@ -14,7 +14,7 @@ export default function Navbar({ navColor }) {
                     <div className="ml-auto">
                         <div className="hidden justify-items-end  items-center w-full lg:bg-transparent md:flex md:w-auto lg:order-1" id="mobile-menu-2">
                             <ul className={`flex flex-col mt-4 md:flex-row space-y-3 md:space-y-0 md:space-x-8 md:mt-0 md:text-sm md:font-medium ml-auto ${navColor}`}>
-                                <button
+                                <button href={'/hello'}
                                     id="serviceDropdownButton"
                                     data-dropdown-toggle="serviceDropdown"
                                     className="nav-link flex items-center gap-2"
@@ -103,21 +103,21 @@ export default function Navbar({ navColor }) {
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/automatic-trading'>
+                                to='/'>
                                 Beginners
                             </Link>
                         </li>
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/crypto-signals'>
+                                to='/'>
                                 Pro
                             </Link>
                         </li>
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/copy-trading'>
+                                to='/pricing'>
                                 Pricing
                             </Link>
                         </li>
@@ -130,35 +130,35 @@ export default function Navbar({ navColor }) {
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/automatic-trading'>
+                                to='/'>
                                 Get Started
                             </Link>
                         </li>
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/crypto-signals'>
+                                to='/'>
                                 Tutorials
                             </Link>
                         </li>
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/copy-trading'>
+                                to='/'>
                                 Academy
                             </Link>
                         </li>
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/web-trader'>
+                                to='/'>
                                 Blog
                             </Link>
                         </li>
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/exchanges'>
+                                to='/'>
                                 HelpDesk
                             </Link>
                         </li>
@@ -171,21 +171,21 @@ export default function Navbar({ navColor }) {
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/automatic-trading'>
+                                to='/about'>
                                 About Us
                             </Link>
                         </li>
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/crypto-signals'>
+                                to='/'>
                                 Contact Us
                             </Link>
                         </li>
                         <li>
                             <Link
                                 className="nav-dropdown-link"
-                                to='/copy-trading'>
+                                to='/'>
                                 Career
                             </Link>
                         </li>
