@@ -60,7 +60,7 @@ export default function PricingMain() {
                         <h3 className="bg-[#0089D31A] w-full font-bold px-6 py-5">Algorithm Intelligence</h3>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }

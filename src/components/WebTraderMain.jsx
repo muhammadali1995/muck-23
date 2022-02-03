@@ -10,7 +10,7 @@ export default function WebTraderMain() {
                     <button class="mt-6">Lorem.</button>
                 </div>
                 <div>
-                    <img src={laptop} />
+                    <img alt="laptop" src={laptop} />
                 </div>
             </div>
         </div>

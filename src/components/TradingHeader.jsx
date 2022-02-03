@@ -13,7 +13,7 @@ export default function Trading() {
                     <button className='bg-accent py-4 px-6 mt-8'>TRY IT NOW</button>
                 </div>
                 <div className='relative  justify-center w-full lg:w-auto hidden sm:flex'>
-                    <img style={{height:'480px'}} src={teams} />
+                    <img src="teams" style={{height:'480px'}} src={teams} />
                 </div>
             </div>
         </div>

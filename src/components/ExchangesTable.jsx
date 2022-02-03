@@ -56,7 +56,7 @@ export default function ExchangesTable() {
                                 return (
                                     <div key={index} className="flex items-center justify-between border-b border-[#000] py-5 px-8 text-[#333333] opacity-80 font-medium">
                                         <h3 className='-mr-10'>{e.order}</h3>
-                                        <h3><img className='w-[100px]' src={e.name} /></h3>
+                                        <h3><img alt={e.name} className='w-[100px]' src={e.name} /></h3>
                                         <h3 className="text-sm w-32 text-center font-semibold -ml-10">{e.brand}</h3>
                                         <h3 className='font-medium'>{e.markets}</h3>
                                         <h3 className="text-sm bg-[#30CEC7] px-2 py-1 rounded text-white cursor-pointer"> Exchange available</h3>
@@ -68,7 +68,7 @@ export default function ExchangesTable() {
                                 return (
                                     <div key={index} className="flex items-center justify-between border-b border-[#000] py-5 px-8 text-[#333333] opacity-80 font-medium">
                                         <h3 className='-mr-10'>{e.order}</h3>
-                                        <h3><img className='w-[100px]' src={e.name} /></h3>
+                                        <h3><img alt={e.name} className='w-[100px]' src={e.name} /></h3>
                                         <h3 className="text-sm bg-[#045DB6] px-2 -ml-10 text-white py-1 rounded cursor-pointer">Official Partner</h3>
                                         <h3 className='font-medium'>{e.markets}</h3>
                                         <h3 className="text-sm bg-[#30CEC7] px-2 text-white py-1 rounded cursor-pointer"> Exchange available</h3>

@@ -24,7 +24,7 @@ export default function KeyFeatures() {
                     {Currenciesdb.map((element, index) => {
                         return (
                             <div key={index} className='flex w-full md:w-1/3 sm:w-1/2 items-center flex-col my-4'>
-                                <img src={element.image} className='w-1/3' />
+                                <img alt={element.name} src={element.image} className='w-1/3' />
                                 <h3 className='mt-6 font-medium text-xl text-white'>{element.text}</h3>
                             </div>
                         )

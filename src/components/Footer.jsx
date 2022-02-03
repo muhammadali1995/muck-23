@@ -8,8 +8,8 @@ export default function Footer() {
                 <div className="py-20 flex flex-col-reverse lg:flex-col w-full lg:w-1/3">
                     <h3 className="font-medium mb-4 text-xl">Website secured with:</h3>
                     <div className="flex items-center justify-between">
-                        <img src={ssl} />
-                        <img src={cloudflare} />
+                        <img src={ssl} alt="ssl"/>
+                        <img src={cloudflare} alt="cloudflare"/>
                     </div>
                     <button className="bg-accent py-4 px-6 my-16 w-56">MARKETPLACE</button>
                 </div>

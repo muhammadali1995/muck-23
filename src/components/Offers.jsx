@@ -21,7 +21,7 @@ export default function Offers() {
                                     <p className='font-medium text-base mt-4'>{element.text}</p>
                                 </div>
                                 <div className='my-4 lg:my-0'>
-                                    <img src={element.img} className='w-full h-full' />
+                                    <img alt={element.title} src={element.img} className='w-full h-full' />
                                 </div>
                             </div>
                         )
@@ -30,7 +30,7 @@ export default function Offers() {
                         return (
                             <div key={index} className='flex flex-col lg:flex-row items-center justify-between my-8'>
                                 <div className='my-4 lg:my-0'>
-                                    <img src={element.img} className='w-full h-full' />
+                                    <img alt={element.title} src={element.img} className='w-full h-full' />
                                 </div>
                                 <div className='ml-0 lg:ml-6 w-full sm:w-2/3'>
                                     <h2 className='font-bold text-3xl'>{element.title}</h2>
