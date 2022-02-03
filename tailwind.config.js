@@ -16,6 +16,7 @@ module.exports = {
         'dark-primary': '#022F5B',
       },
       fontSize: {
+        28: '28px',
         'header-title': '82px',
       },
       lineHeight: {
@@ -27,7 +28,10 @@ module.exports = {
       },
       spacing: {
         '5.5': '22px',
+        15: '60px',
         '17.5': '70px',
+        25: '100px',
+        '37.5': '150px',
         75: '300px',
       }
     },

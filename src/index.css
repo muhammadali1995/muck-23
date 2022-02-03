@@ -4,7 +4,7 @@
 
 @layer components {
     .nav-link{
-        @apply text-xl leading-[26px] text-color-text uppercase;
+        @apply text-xl leading-[26px] uppercase;
     }
 
     .nav-dropdown-link{
@@ -16,13 +16,17 @@
     }
 
     .header-title{
-        @apply text-header-title leading-header-title font-extrabold;
+        @apply text-[50px] xl:text-header-title leading-[60px] xl:leading-header-title font-extrabold;
     },
 
     .header-text{
-        @apply text-lg font-medium leading-7;
+        @apply text-base lg:text-lg font-medium leading-7;
     }
     .header-btn-try{
         @apply px-17.5 py-6 bg-accent text-white font-medium text-2xl leading-header-btn-try uppercase;
+    }
+
+    .partners-logo{
+        @apply w-60 mx-auto md:w-full;
     }
 }
