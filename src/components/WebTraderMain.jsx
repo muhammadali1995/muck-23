@@ -4,14 +4,14 @@ import Navbar from './../components/Navbar'
 
 export default function WebTraderMain() {
     return (
-        <div className="bg-[#0089D31A] px-8">
+        <div className="bg-[#0089D31A] pb-[105px] px-8">
             <div className='mx-auto max-w-[1200px] '>
                 <div className="py-[50px]">
                     <Registration color={'text-color-text'} />
                 </div>
                 <Navbar navColor={'text-color-text'} />
 
-                <div className="w-full pt-20 pb-[105px] flex items-center flex-col lg:flex-row justify-between">
+                <div className="w-full pt-20 pb-20 flex items-center flex-col lg:flex-row justify-between">
                     <div className="w-full mr-6 lg:w-1/2">
                         <h1 className="font-extrabold text-xl md:text-6xl">Our
                             Webtrader <span className='text-accent'> Platform</span></h1>

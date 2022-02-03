@@ -4,7 +4,7 @@ import cloudflare from './../assets/cloudflare.png'
 export default function Footer() {
     return (
         <div className="bg-dark-primary max-w-desktop mx-auto py-20 text-white">
-            <div className="flex items-center md:items-start justify-between flex-col-reverse lg:flex-row mx-auto max-w-[1000px]">
+            <div className="flex items-center md:items-start justify-between flex-col-reverse lg:flex-row mx-auto max-w-[1200px]">
                 <div className="items-center lg:items-start flex flex-col-reverse lg:flex-col w-full lg:w-1/3">
                     <button className='text-[24px] hidden lg:block  font-normal text-white bg-accent py-[23px] px-[45px]'>LOGO</button>
                     <p className='hidden lg:block font-normal mt-[30px] text-sm mb-[25px]'>The information on this website is general in nature. Please consider the information in light of your objectives, financial situation and needs.
