@@ -26,7 +26,7 @@ export const AutomaticTradingHeader = () => {
                 </p>
                 <button className="header-btn-try mt-5 xl:mt-9">try it now</button>
             </div>
-            <div className="col-span-2 lg:col-span-1 pt-20 lg:pt-32 xl:pt-[171px] pb-20 lg:pb-44 xl:pb-[235px]">
+            <div className="col-span-2 lg:col-span-1 pb-17.5 sm:py-20 lg:pt-32 xl:pt-[171px] lg:pb-44 xl:pb-[235px]">
                 <img src={headerImage} alt="img-header" className="w-full max-h-[550px] h-full" />
             </div>
         </div>

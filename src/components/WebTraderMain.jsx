@@ -6,7 +6,7 @@ export default function WebTraderMain() {
     return (
         <div className="bg-[#0089D31A] pb-[105px] px-8">
             <div className='mx-auto max-w-[1200px] '>
-                <div className="py-[50px]">
+                <div className="lg:py-[50px]">
                     <Registration color={'text-color-text'} />
                 </div>
                 <Navbar navColor={'text-color-text'} />

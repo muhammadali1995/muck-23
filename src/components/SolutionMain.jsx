@@ -8,7 +8,7 @@ export default function SolutionMain() {
     return (
         <div className="bg-secondary">
             <div className=" max-w-[1200px] mx-auto">
-                <div className="py-[50px]">
+                <div className="lg:py-[50px]">
                     <Registration color={'text-color-text'} />
                 </div>
                 <Navbar navColor={'text-color-text'} />

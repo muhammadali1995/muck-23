@@ -97,7 +97,7 @@ export const HomeOpinion = () => {
                 </Swiper>
                 <SwiperNext goNext={goNext} />
             </div>
-            <div className="lg:hidden">
+            <div className="lg:hidden sm:px-15">
                 <Swiper
                     modules={[Navigation]}
                     spaceBetween={40}

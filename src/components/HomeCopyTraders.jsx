@@ -3,7 +3,7 @@ export const HomeCopyTraders = () => {
         <div className="rounded-r-[30px] bg-home-copy-trade bg-no-repeat bg-cover bg-left">
             <div
                 className="bg-gradient-to-r from-black 
-            text-white px-10 sm:px-16 lg:pr-0 lg:pl-40 xl:pl-[200px] 2xl:pl-75 pt-[114px] pb-[189px] lg:py-25 text-center lg:text-left">
+            text-white px-10 sm:px-16 lg:pr-0 lg:pl-40 xl:pl-[200px] 2xl:pl-75 py-20 sm:pt-[114px] sm:pb-[189px] lg:py-25 text-center lg:text-left">
                 <p className="text-accent font-bold mb-2.5 hidden lg:block">SIGNALS. TEMPLATES. STRATEGIES</p>
                 <h1 className="text-[28px] lg:text-5xl uppercase mb-6">
                     <span className="font-bold">Copy other</span>
@@ -19,7 +19,7 @@ export const HomeCopyTraders = () => {
                     and bot templates from our marketplace. You don't need to be an expert
                     to trade like one.
                 </p>
-                <button className="font-medium text-2xl py-6 px-[51px] uppercase bg-accent text-white">
+                <button className="font-medium sm:text-2xl py-6 px-[51px] uppercase bg-accent text-white">
                     marketplace
                 </button>
             </div>
