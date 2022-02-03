@@ -1,3 +1,4 @@
+
 export default function MarketPlace(){
     return  (
         <div className="bg-accent text-white text-center py-20 max-w-desktop mx-auto">

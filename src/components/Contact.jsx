@@ -84,21 +84,21 @@ export default function Contact() {
             </div>
             <div className="flex justify-center lg:justify-between flex-wrap w-full lg:w-8/12 p-4 mx-auto mt-20">
                 <div className="flex items-center my-4">
-                    <img src={email} />
+                    <img src={email} alt="email"/>
                     <div className="ml-4">
                         <h3 className="font-semibold">Support email:</h3>
                         <p className="text-sm font-normal">support@gmail.com</p>
                     </div>
                 </div>
                   <div className="flex items-center my-4">
-                    <img src={phone} />
+                    <img src={phone} alt="phone"/>
                     <div className="ml-4">
                         <h3 className="font-semibold">Telephone number:</h3>
                         <p className="text-sm font-normal">+357 00 000 000</p>
                     </div>
                 </div>  
                 <div className="flex items-center my-4">
-                    <img src={clock} />
+                    <img src={clock} alt="clock"/>
                     <div className="ml-4">
                         <h3 className="font-semibold">Monday to Friday</h3>
                         <p className="text-sm font-normal">9.30-21.00 GMT</p>

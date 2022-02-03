@@ -22,8 +22,8 @@ export default function Trading() {
                     </p>
                     <button className='header-btn-try mt'>TRY IT NOW</button>
                 </div>
-                <div className='relative w-full lg:w-auto hidden sm:flex'>
-                    <img src={teams} alt='aboutus-header' className='h-[480px] xl:h-full w-full' />
+                <div className='relative  justify-center w-full lg:w-auto hidden sm:flex'>
+                    <img src="teams" style={{height:'480px'}} src={teams}  alt='teams'/>
                 </div>
             </div>
         </div>
