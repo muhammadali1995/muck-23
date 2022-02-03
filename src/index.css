@@ -4,7 +4,7 @@
 
 @layer components {
     .nav-link{
-        @apply text-xl leading-[26px] uppercase;
+        @apply text-xl md:text-lg lg:text-xl leading-[26px] uppercase;
     }
 
     .nav-dropdown-link{
@@ -16,11 +16,7 @@
     }
 
     .header-title{
-<<<<<<< HEAD
-        @apply text-4xl sm:text-[50px] xl:text-header-title sm:leading-[60px] xl:leading-header-title font-extrabold;
-=======
         @apply text-3xl sm:text-[50px] xl:text-header-title sm:leading-[60px] xl:leading-header-title font-extrabold;
->>>>>>> master
     },
 
     .header-text{
@@ -31,6 +27,6 @@
     }
 
     .partners-logo{
-        @apply w-60 mx-auto md:w-full;
+        @apply w-[200px] sm:w-60 mx-auto md:w-full;
     }
 }

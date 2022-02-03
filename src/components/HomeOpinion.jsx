@@ -66,7 +66,7 @@ export const HomeOpinion = () => {
                     Check what succesful cryptocurrency traders say about us
                 </p>
             </div>
-            <div className="max-w-[1260px] mx-auto hidden lg:flex items-center gap-5 ">
+            <div className="max-w-[1260px] mx-auto hidden lg:flex items-center gap-x-5 sm:px-15 lg:px-0">
                 <SwiperPrev />
                 <Swiper
                     modules={[Navigation]}
@@ -89,7 +89,7 @@ export const HomeOpinion = () => {
                 </Swiper>
                 <SwiperNext />
             </div>
-            <div className="lg:hidden">
+            <div className="lg:hidden sm:px-15">
                 <Swiper
                     modules={[Navigation]}
                     spaceBetween={40}
