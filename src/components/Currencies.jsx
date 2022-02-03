@@ -19,7 +19,7 @@ export default function Currencies() {
         <div className='p-8'>
             <div className='bg-cover text-center rounded-2xl w-full md:max-w-[1200px] mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
                 <div className='py-20'>
-                    <h3 className='text-3xl font-bold uppercase text-white m-2 sm:m-0'>Currencies you can find
+                    <h3 className='text-xl md:text-3xl font-bold uppercase text-white m-2 sm:m-0'>Currencies you can find
                         <span className='inline-block sm:block font-normal'>on our Platform</span>
                     </h3>
                     <div className='flex flex-wrap mt-8 w-10/12 mx-auto'>
