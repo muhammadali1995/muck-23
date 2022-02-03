@@ -17,7 +17,7 @@ export default function Currencies() {
     ]
     return (
         <div className='p-8'>
-            <div className='bg-cover py-20 text-center rounded-2xl w-full max-w-desktop md:w-[1200px] mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
+            <div className='bg-cover py-20 text-center rounded-2xl w-full md:max-w-[1200px] mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
                 <h3 className='text-3xl font-bold uppercase text-white m-2 sm:m-0'>Currencies you can find
                     <span className='inline-block sm:block font-normal'>on our Platform</span>
                 </h3>
