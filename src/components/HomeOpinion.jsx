@@ -72,14 +72,12 @@ export const HomeOpinion = () => {
                     modules={[Navigation]}
                     spaceBetween={40}
                     slidesPerView={2}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
                 >
                     {cardData.map(
-                        (data) => {
-                            return <div key={data.name}>
+                        (item, i) => {
+                            return <div key={i}>
                                 <SwiperSlide>
-                                    <HomeReviewCard name={data.name} review={data.review} imageSrc={data.imageSrc} />
+                                    <HomeReviewCard name={item.name} review={item.review} imageSrc={item.imageSrc} />
                                 </SwiperSlide>
                             </div>
                         }
@@ -94,10 +92,10 @@ export const HomeOpinion = () => {
                     slidesPerView={1}
                 >
                     {cardData.map(
-                        (data) => {
-                            return <div key={data.name}>
+                        (item, i) => {
+                            return <div key={i * 2}>
                                 <SwiperSlide>
-                                    <HomeReviewCard name={data.name} review={data.review} imageSrc={data.imageSrc} />
+                                    <HomeReviewCard name={item.name} review={item.review} imageSrc={item.imageSrc} />
                                 </SwiperSlide>
                             </div>
                         }
