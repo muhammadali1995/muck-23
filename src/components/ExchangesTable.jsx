@@ -37,7 +37,7 @@ export default function ExchangesTable() {
 
     return (
         <div>
-            <h1 className="font-extrabold header-title text-accent text-center">Exchanges</h1>
+            <h1 className="font-extrabold text-xl md:header-title text-accent text-center">Exchanges</h1>
             <p className="mt-4 mx-auto text-center w-full md:w-1/4 px-4">The following crypto exchanges are officially supported
                 by No name 1</p>
             <div className='w-100 overflow-auto'>
