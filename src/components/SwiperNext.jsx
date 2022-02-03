@@ -1,10 +1,8 @@
-import { useSwiper } from 'swiper/react';
 import rarrow from '../assets/ArrowRight.png';
 
-export const SwiperNext = () => {
-    const swiper = useSwiper();
+export const SwiperNext = ({goNext}) => {
     return <>
-        <button onClick={() => { swiper.slideNext() }}>
+        <button onClick={goNext}>
             <img src={rarrow} alt="arrow-r" className="w-24" />
         </button>
     </>;

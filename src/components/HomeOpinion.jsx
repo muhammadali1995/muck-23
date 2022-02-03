@@ -1,8 +1,8 @@
+import { useRef } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 import 'swiper/css/navigation';
 import 'swiper/css';
-
 
 import cardImage from './../assets/card-image.png';
 import { HomeReviewCard } from './HomeReviewCard';
@@ -53,6 +53,17 @@ const cardData = [
 
 
 export const HomeOpinion = () => {
+    const ref = useRef(null);
+    const goNext = () => {
+        if (ref.current !== null && ref.current.swiper !== null) {
+            ref.current.swiper.slideNext();
+        }
+    };
+    const goPrev = () => {
+        if (ref.current !== null && ref.current.swiper !== null) {
+            ref.current.swiper.slidePrev();
+        }
+    };
     return (
         <div className='pb-25 lg:pb-37.5'>
             <div className="mx-auto text-center">
@@ -67,15 +78,12 @@ export const HomeOpinion = () => {
                 </p>
             </div>
             <div className="max-w-[1260px] mx-auto hidden lg:flex items-center gap-5 ">
-                <SwiperPrev />
+                <SwiperPrev goPrev={goPrev} />
                 <Swiper
                     modules={[Navigation]}
                     spaceBetween={40}
                     slidesPerView={2}
-                // navgation={{
-                //     prevEl: <SwiperPrev />,
-                //     nextEl: <SwiperNext />
-                // }}
+                    ref={ref}
                 >
                     {cardData.map(
                         (item) => {
@@ -87,7 +95,7 @@ export const HomeOpinion = () => {
                         }
                     )}
                 </Swiper>
-                <SwiperNext />
+                <SwiperNext goNext={goNext} />
             </div>
             <div className="lg:hidden">
                 <Swiper
