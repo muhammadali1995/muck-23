@@ -45,7 +45,6 @@ export default function ExchangesTable() {
                     <div className="flex border-b border-[#000] items-center justify-between py-5 px-8 text-[#333333] opacity-80 font-medium">
                         <h3 className='-mr-[25px]'>#</h3>
                         <h3>Name</h3>
-                        <h3></h3>
                         <h3 className='ml-[35px]'>#markets</h3>
                         <h3>Status</h3>
                         <h3>Uptime - month</h3>

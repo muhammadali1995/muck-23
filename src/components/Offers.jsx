@@ -12,7 +12,7 @@ export default function Offers() {
         <div className='max-w-desktop mx-auto'>
             <div className='w-full p-4 md:w-8/12 flex flex-col mx-auto'>
                 {Offersdb.map((element, index) => {
-                    if (element.order == 1) {
+                    if (element.order === 1) {
                         return (
                             <div key={index} className='flex flex-col lg:flex-row items-center justify-between my-8'>
                                 <div className='mr-0 lg:mr-6 w-full sm:w-2/3 '>
