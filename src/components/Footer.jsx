@@ -4,7 +4,7 @@ import cloudflare from './../assets/cloudflare.png'
 export default function Footer() {
     return (
         <div className="bg-dark-primary max-w-desktop mx-auto py-20 text-white">
-            <div className="flex items-center md:items-start justify-between flex-col-reverse lg:flex-row mx-auto max-w-[1316px]">
+            <div className="flex items-center md:items-start justify-between flex-col-reverse px-20 2xl:px-0 lg:flex-row mx-auto max-w-[1316px]">
                 <div className="items-center lg:items-start flex flex-col-reverse lg:flex-col w-full lg:w-1/3">
                     <button className='text-[24px] hidden lg:block  font-normal text-white bg-accent py-[23px] px-[45px]'>LOGO</button>
                     <p className='hidden lg:block font-normal mt-[30px] text-sm mb-[25px]'>The information on this website is general in nature. Please consider the information in light of your objectives, financial situation and needs.
@@ -20,7 +20,7 @@ export default function Footer() {
                     </div>
                     <button className="bg-accent py-4 px-6 mb-16 mt-8 md:mt-16 w-64 md:w-56">MARKETPLACE</button>
                 </div>
-                <div className="flex ml-0 md:ml-16 items-center md:items-start text-center md:text-left justify-center sm:justify-between flex-col md:flex-row w-full lg:w-8/12 pr-0 md:pr-20 lg:pr-0 flex-wrap">
+                <div className="flex px-20 lg:px-0 items-center md:items-start text-center md:text-left justify-center sm:justify-between flex-col md:flex-row w-full lg:w-7/12 flex-wrap">
                     <ul className="uppercase text-xl my-12 md:my-0">
                         <li className="cursor-pointer">Services</li>
                         <li className="cursor-pointer mt-2">Solutions</li><li>MarketPlace</li>
