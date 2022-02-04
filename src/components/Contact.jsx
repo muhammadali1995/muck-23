@@ -3,34 +3,18 @@ import { useState } from "react";
 import email from './../assets/email.png'
 import phone from './../assets/phone.png'
 import clock from './../assets/clock.png'
-// const sgmail = require('@sendgrid/mail');
-// sgmail.setApiKey('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');
 
 export default function Contact() {
-    // const [form]  = Form.useForm()
-    // const onComplate = (fields) => {
-    //     const message = {
-    //         to: 'micemex991@host1s.com',
-    //         from: fields.email,
-    //         subject:fields.subject,
-    //         html: `
-    //         <p><strange>Name:</strange>${fields.name}</p>
-    //         <p>${fields.message}</p>
-    //         `
-    //     }
-    //     sgmail.send(message)
-    //     .then(()=>{
-    //         form.resetFields();
-    //         console.log('email Send')
-    //     })
-    //     .catch(error=>{
-    //         console.error('error',error)
-    //     })
-    //}
-
     const onSubmit = (e) => {
         e.preventDefault()
-        console.log(e);
+        const formValues = {
+            firstname: e.target.elements[2].value,
+            lastname: e.target.elements[3].value,
+            email: e.target.elements[4].value,
+            phoneNumber: e.target.elements[5].value,
+            consent: e.target.elements[6]?.value,
+        }
+        console.log(formValues);
     }
 
 
@@ -48,25 +32,25 @@ export default function Contact() {
                         <div className="flex justify-between flex-col md:flex-row">
                             <div className="flex flex-col w-full md:w-1/2">
                                 <label className="text-dark-primary font-bold m-4">FIRST NAME</label>
-                                <input type="text" className="border w-full md:w-11/12 py-3 px-5 border-[#EBEAED] outline-none" placeholder="First name" />
+                                <input name='firstname' type="text" className="border w-full md:w-11/12 py-3 px-5 border-[#EBEAED] outline-none" placeholder="First name" />
                             </div>
                             <div className="flex flex-col w-full md:w-1/2">
                                 <label className="text-dark-primary font-bold m-4 ml-4 md:ml-12 uppercase">Last NAME</label>
-                                <input type="text" className="border w-full md:w-11/12 py-3 px-5 ml-auto border-[#EBEAED] outline-none" placeholder="Last name" />
+                                <input type="text" name='lastname' className="border w-full md:w-11/12 py-3 px-5 ml-auto border-[#EBEAED] outline-none" placeholder="Last name" />
                             </div>
                         </div>
                         <div className="flex flex-col w-full mt-4">
                             <label className="text-dark-primary font-bold m-4 uppercase">Email address</label>
-                            <input type="email" className="border w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Email Address" />
+                            <input type="email" name='email' className="border w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Email Address" />
                         </div>
                         <div className="flex flex-col w-full mt-4">
                             <label className="text-dark-primary font-bold m-4 uppercase">Phone number</label>
-                            <input type="number" className="border appearance-none w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Phone Number" />
+                            <input type="number" name="phoneNumber" className="border appearance-none w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Phone Number" />
                         </div>
                         <div className="block">
                             <div className="mt-8 ml-4">
                                 <label className="inline-flex items-center">
-                                    <input type="checkbox" className="w-5 h-5 rounded-full" />
+                                    <input name="consent" type="checkbox" className="w-5 h-5 rounded-full" />
                                     <span className="ml-2 text-xs md:text-sm">I have read and accept the Client Agreement and Risk Disclosure of the Company</span>
                                 </label>
                             </div>
@@ -79,16 +63,16 @@ export default function Contact() {
                         <div className="flex flex-col md:flex-row justify-between">
                             <div className="flex flex-col w-full md:w-1/2">
                                 <label className="text-dark-primary font-bold m-4">FIRST NAME</label>
-                                <input type="text" className="border w-full md:w-11/12 py-3 px-5 border-[#EBEAED] outline-none" placeholder="First name" />
+                                <input type="text" name="firstname" className="border w-full md:w-11/12 py-3 px-5 border-[#EBEAED] outline-none" placeholder="First name" />
                             </div>
                             <div className="flex flex-col w-full md:w-1/2">
                                 <label className="text-dark-primary font-bold m-4 ml-4 md:ml-12 uppercase">Last NAME</label>
-                                <input type="text" className="border w-full md:w-11/12 py-3 px-5 ml-auto border-[#EBEAED] outline-none" placeholder="Last name" />
+                                <input type="text" name="lastname" className="border w-full md:w-11/12 py-3 px-5 ml-auto border-[#EBEAED] outline-none" placeholder="Last name" />
                             </div>
                         </div>
                         <div className="flex flex-col w-full mt-4">
                             <label className="text-dark-primary font-bold m-4 uppercase">Email address</label>
-                            <input type="email" className="border w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Email Address" />
+                            <input type="email" name="email" className="border w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Email Address" />
                         </div>
                         <div className="flex flex-col w-full mt-4">
                             <label className="text-dark-primary font-bold m-4 uppercase">Phone number</label>
@@ -96,7 +80,7 @@ export default function Contact() {
                         </div>
                         <div className="flex flex-col w-full mt-4">
                             <label className="text-dark-primary font-bold m-4 uppercase">Message</label>
-                            <textarea type="number" className="border appearance-none w-full py-3 px-5 border-[#EBEAED] outline-none h-48" placeholder="Write a Message" />
+                            <textarea name="message" className="border appearance-none w-full py-3 px-5 border-[#EBEAED] outline-none h-48" placeholder="Write a Message" />
                         </div>
                         <div className="block">
                             <div className="mt-8 ml-4">
