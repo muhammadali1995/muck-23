@@ -1,6 +1,6 @@
 import exmo from './../assets/exmo_logo.png'
 import okex from './../assets/logo_okex.png'
-import bitvavo from './../assets/bitcoin.png'
+import bitvavo from './../assets/bitvavo_logo.png'
 import bitpanda from './../assets/bitpanda_logo.png'
 import huobi from './../assets/huobi_logo.png'
 import hitbtc from './../assets/hitbtc_logo.png'
