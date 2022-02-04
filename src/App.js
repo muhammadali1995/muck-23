@@ -11,12 +11,14 @@ import WebTrader from './pages/WebTrader';
 import Solution from './pages/Solution';
 import Footer from "./components/Footer";
 import NavWrapper from "./components/NavWrapper";
+import MarketPlaceComing from './pages/MarketPlaceComing';
+
 function App() {
   return (
     <>
       <div className="home-header">
         <BrowserRouter>
-         <NavWrapper/> 
+          <NavWrapper />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path='/automatic-trading' element={<Trading />} />
@@ -27,6 +29,7 @@ function App() {
             <Route path="/about" element={<About />}></Route>
             <Route path="/exchanges" element={<Exchanges />}></Route>
             <Route path="/pricing" element={<Pricing />}></Route>
+            <Route path="/market-place-coming" element={<MarketPlaceComing />} />
           </Routes>
         </BrowserRouter>
       </div>

@@ -5,8 +5,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        'market-header': 'url("./assets/Market.png")',
         'home-automate-trade': 'url("./assets/home-1.png")',
-        'home-copy-trade': "url('./assets/home-2.png')"
+        'home-copy-trade': "url('./assets/home-2.png')",
       },
       colors: {
         'accent': '#00AECC',
