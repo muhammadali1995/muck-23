@@ -1,10 +1,13 @@
 import React from 'react';
+import comingSoon from './../assets/Market.jpeg'
 
 export default function MarketPlaceComing() {
     return <>
         <div>
-            <div className="w-full lg:h-[960px] p-10 lg:p-0 bg-primary lg:bg-market-header mb-25 md:mb-[150px] bg-left lg:bg-center bg-no-repeat bg-cover">
+            <div className="w-full p-10 lg:p-0 bg-primary lg:bg-transparent mb-25 md:mb-[150px] bg-left lg:bg-center bg-no-repeat bg-cover">
+                <img src={comingSoon} alt="coming soon" className="m-0 w-full hidden lg:block" />
                 <div className="border-[3px] border-dashed border-white lg:hidden">
+
                     <div className="py-25 md:pt-40  md:pb-[200px] lg:w-[305px] mx-auto text-center lg:text-left">
                         <h1 className="text-white header-title font-extrabold">
                             Market Place
