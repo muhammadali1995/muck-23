@@ -12,7 +12,7 @@ export default function Footer() {
                         No Name 1 is a trademark of No name 2
                     </p>
                     <div className='flex flex-col lg:flex-col'>
-                        <h3 className="font-medium mb-4 text-[22px]">Website secured with:</h3>
+                        <h3 className="font-medium mb-4 text-[22px] text-white">Website secured with:</h3>
                         <div className="flex items-center">
                             <img src={ssl} alt="ssl" className='mr-6' />
                             <img src={cloudflare} alt="cloudflare" />
@@ -23,19 +23,27 @@ export default function Footer() {
                 <div className="flex px-20 lg:px-0 items-center md:items-start text-center md:text-left justify-center sm:justify-between flex-col md:flex-row w-full lg:w-7/12 flex-wrap">
                     <ul className="uppercase text-xl my-12 md:my-0">
                         <li className="cursor-pointer">Services</li>
-                        <li className="cursor-pointer mt-2">Solutions</li><li>MarketPlace</li>
-                        <li className="cursor-pointer mt-2">Services</li><li>Tools</li>
+                        <li className="cursor-pointer mt-2">Solutions</li>
+                        <li className='mt-2'>MarketPlace</li>
+                        <li className='mt-2'>Tools</li>
                         <li className="cursor-pointer mt-2">About Us</li>
                     </ul>
                     <ul>
                         <li className="cursor-pointer text-xl">FAST LINKS</li>
-                        <li className="cursor-pointer mt-2">Automatic Trading</li>
-                        <li className="cursor-pointer mt-2">Crypto Signals</li>
-                        <li className="cursor-pointer mt-2">Copy Trading</li>
-                        <li className="cursor-pointer mt-2">Web Trader</li>
-                        <li className="cursor-pointer mt-2">Exchanges</li>
-                        <li className="cursor-pointer mt-2">Pricings</li>
-                        <li className="cursor-pointer mt-2">HelpDesk</li>
+                        <li className="cursor-pointer mt-2">
+                            <a href="/automatic-trading" className='text-white text-base hover:text-white'> Automatic Trading</a></li>
+                        <li className="cursor-pointer mt-2">
+                            <a href="/crypto-signals" className='text-white text-base hover:text-white'> Crypto Signals</a></li>
+                        <li className="cursor-pointer mt-2">
+                            <a href="/copy-trading" className='text-white text-base hover:text-white'> Copy Trading</a></li>
+                        <li className="cursor-pointer mt-2">
+                            <a href="/web-trader" className='text-white text-base hover:text-white'> Web Trader</a></li>
+                        <li className="cursor-pointer mt-2">
+                            <a href="/exchanges" className='text-white text-base hover:text-white'> Exchanges</a></li>
+                        <li className="cursor-pointer mt-2">
+                            <a href="/pricing" className='text-white text-base hover:text-white'> Pricings</a></li>
+                        <li className="cursor-pointer mt-2">
+                            <a href="/about" className='text-white text-base hover:text-white'> HelpDesk</a></li>
                     </ul>
                     <ul className="uppercase text-lg mb-0 md:mb-12 mt-12 md:my-0">
                         <li className="cursor-pointer">Privacy Policy</li>

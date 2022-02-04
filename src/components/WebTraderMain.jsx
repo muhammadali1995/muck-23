@@ -11,7 +11,7 @@ export default function WebTraderMain() {
                         clients. </p>
                     <button className="mt-12 header-btn-try mb-12 lg:mb-0">TRY IT NOW</button>
                 </div>
-                <div>
+                <div className='mt-8 lg:mt-0'>
                     <img alt="laptop" className='mt-4' src={laptop} />
                 </div>
             </div>

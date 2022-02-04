@@ -28,7 +28,7 @@ const cardData = [
     {
         id: 3,
         name: 'Chika Moronu',
-        review: `"Took a while to get used to the settings, but once I got the hang of it, the app has been great"`,
+        review: `"Took a while to get used to the settings, but once I got the hang of it, the platform has been great"`,
         imageSrc: cardImage,
     },
     {
