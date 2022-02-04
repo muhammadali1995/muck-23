@@ -1,4 +1,3 @@
-import background from './../assets/techno.png'
 import bitcoin from './../assets/bitcoin.png'
 import ethereum from './../assets/ethereum.png'
 import litecoin from './../assets/litecoin.png'
