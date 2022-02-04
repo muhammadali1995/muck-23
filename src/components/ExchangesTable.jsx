@@ -39,10 +39,10 @@ export default function ExchangesTable() {
         <div className='bg-[#0089D31A]'>
             <div className='py-20 lg:pt-48'>
                 <h1 className="font-extrabold text-xl md:header-title text-accent text-center">Exchanges</h1>
-                <p className="mt-4 mx-auto text-center w-full md:w-1/4 px-4">The following crypto exchanges are officially supported
+                <p className="mt-4 mx-auto text-center w-full lg:w-1/4 px-4">The following crypto exchanges are officially supported
                     by No name 1</p>
-                <div className='w-100 side-padding overflow-auto py-25'>
-                    <div className="border-[#00000033] bg-[#F6F6F64D] mt-12 border mx-auto" style={{ boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}>
+                <div className='w-100 p-0 md:side-padding overflow-auto py-25'>
+                    <div className="border-[#00000033] bg-[#F6F6F64D] mt-12 border mx-0 md:mx-auto w-[1200px]" style={{ boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}>
                         <div className="flex border-b border-[#000] items-center justify-between py-5 px-8 text-[#333333] opacity-80 font-medium">
                             <h3 className='-mr-[25px] flex-grow'>#</h3>
                             <h3 className="flex-grow">Name</h3>

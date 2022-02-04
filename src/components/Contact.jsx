@@ -3,9 +3,6 @@ import { useState } from "react";
 import email from './../assets/email.png'
 import phone from './../assets/phone.png'
 import clock from './../assets/clock.png'
-import {Form} from 'antd'
-import 'antd/dist/antd.css'
-
 // const sgmail = require('@sendgrid/mail');
 // sgmail.setApiKey('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');
 
@@ -32,10 +29,10 @@ export default function Contact() {
     //}
     const [openTab, setOpenTab] = useState(1);
     return (
-        <div className="max-w-desktop mx-auto my-20 p-4  md:p-8">
+        <div id="form" className="max-w-desktop mx-auto my-20 p-4  md:p-8">
             <h2 className="text-4xl font-bold text-[#045DB6] text-center mt-8 uppercase">CONTACT Us </h2>
             <div className="w-full md:w-8/12 mx-auto bg-white mt-12" style={{ filter: 'drop-shadow(6px 7px 14px rgba(0, 0, 0, 0.35))', }}>
-                <Form>
+                <form onSubmit={onSubmit}>
                     <div className="flex">
                         <button className={openTab === 1 ? 'w-1/2 py-4 px-2 text-xs md:text-xl truncate font-medium text-dark-primary border-b-2 border-[#022F5B]' : 'w-1/2 py-4 text-xs md:text-xl truncate font-medium text-[#15143966] border-b-2 border-[#EBEAED]'} onClick={(e) => { e.preventDefault(); setOpenTab(1) }}>LET US CALL YOU</button>
                         <button className={openTab === 2 ? 'w-1/2 py-4 text-xs md:text-xl truncate font-medium text-dark-primary border-b-2 border-[#022F5B]' : 'w-1/2 py-4 text-xs md:text-xl truncate font-medium text-[#15143966] border-b-2 border-[#EBEAED]'} onClick={(e) => { e.preventDefault(); setOpenTab(2) }}>WRITE US A MESSAGE</button>
@@ -103,10 +100,10 @@ export default function Contact() {
                             </div>
                         </div>
                         <div className="flex justify-center">
-                            <button class="bg-[#045DB6] mt-4 mx-auto py-4 text-center text-white w-1/2">SUBMIT</button>
+                            <button className="bg-[#045DB6] mt-4 mx-auto py-4 text-center text-white w-1/2">SUBMIT</button>
                         </div>
                     </div>
-                </Form>
+                </form>
             </div>
             <div className="flex justify-center lg:justify-between flex-wrap w-full lg:w-8/12 p-4 mx-auto mt-20">
                 <div className="flex items-center my-4">

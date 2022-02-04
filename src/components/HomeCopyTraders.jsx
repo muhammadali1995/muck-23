@@ -13,7 +13,7 @@ export const HomeCopyTraders = () => {
                 <p className="text-lg leading-6 underline mb-2 hidden lg:block">
                     Check out the MarketPlace!
                 </p>
-                <p className="font-medium text-lg leading-7 mb-7 lg:w-[50%]">
+                <p className="font-medium text-lg leading-7 mb-7 lg:w-[486px]">
                     Join the Social Trading revolution. Subscribe to trading signals,
                     discuss trading strategies on our internal chat, and buy strategies
                     and bot templates from our marketplace. You don't need to be an expert

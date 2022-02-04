@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import {HashLink}from 'react-router-hash-link'
 
 
 export default function Navbar({ navColor }) {
@@ -178,11 +179,11 @@ export default function Navbar({ navColor }) {
                             </Link>
                         </li>
                         <li>
-                            <Link
+                            <HashLink
                                 className="nav-dropdown-link"
-                                to='/'>
+                                to='/about#form'>
                                 Contact Us
-                            </Link>
+                            </HashLink>
                         </li>
                         <li>
                             <Link
