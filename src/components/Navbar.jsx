@@ -38,13 +38,6 @@ export default function Navbar({ navColor }) {
                                     Market Place
                                 </Link>
                                 <button
-                                    id="toolsDropdownButton"
-                                    data-dropdown-toggle="toolsDropdown"
-                                    className="nav-link flex items-center gap-2"
-                                    type="button">
-                                    Tools
-                                </button>
-                                <button
                                     id="aboutUsDropdownButton"
                                     data-dropdown-toggle="aboutUsDropdown"
                                     className="nav-link flex items-center gap-2"
@@ -124,62 +117,8 @@ export default function Navbar({ navColor }) {
                             <Link
                                 data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
-                                to='/'>
-                                Pro
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                data-collapse-toggle="mobile-menu-2"
-                                className="nav-dropdown-link"
                                 to='/pricing'>
                                 Pricing
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
-                <div
-                    id="toolsDropdown"
-                    className="hidden z-10 w-auto px-3.5 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-                    <ul className="py-1" aria-labelledby="toolsDropdownButton">
-                        <li>
-                            <Link
-                                data-collapse-toggle="mobile-menu-2"
-                                className="nav-dropdown-link"
-                                to='/'>
-                                Get Started
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                data-collapse-toggle="mobile-menu-2"
-                                className="nav-dropdown-link"
-                                to='/'>
-                                Tutorials
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                data-collapse-toggle="mobile-menu-2"
-                                className="nav-dropdown-link"
-                                to='/'>
-                                Academy
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                data-collapse-toggle="mobile-menu-2"
-                                className="nav-dropdown-link"
-                                to='/'>
-                                Blog
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                data-collapse-toggle="mobile-menu-2"
-                                className="nav-dropdown-link"
-                                to='/'>
-                                HelpDesk
                             </Link>
                         </li>
                     </ul>

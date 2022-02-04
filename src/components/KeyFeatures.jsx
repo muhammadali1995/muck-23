@@ -18,7 +18,7 @@ export default function KeyFeatures() {
     ]
     return (
         <div className='-mt-28 side-padding'>
-            <div className='bg-cover py-20 text-center rounded-2xl w-full p-8 mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
+            <div className='bg-cover py-20 text-center rounded-[20px] w-full p-8 mx-auto bg-no-repeat bg-key-feature bg-primary opacity-7'>
                 <h3 className='text-3xl font-bold uppercase text-white m-2 sm:m-0'>Key Features Include</h3>
                 <div className='flex flex-wrap mt-8 w-10/12 mx-auto'>
                     {currenciesdb.map((element, index) => {

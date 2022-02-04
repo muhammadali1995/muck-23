@@ -1,4 +1,4 @@
-import background from './../assets/technology-network-background-min.png'
+import background from './../assets/techno.png'
 import bitcoin from './../assets/bitcoin.png'
 import ethereum from './../assets/ethereum.png'
 import litecoin from './../assets/litecoin.png'
@@ -17,7 +17,7 @@ export default function Currencies() {
     ]
     return (
         <div className='py-8 px-4'>
-            <div className='bg-cover text-center rounded-3xl mx-auto bg-no-repeat' style={{ backgroundImage: `url(${background})` }}>
+            <div className='bg-cover text-center rounded-[20px] mx-auto g-no-repeat bg-currency bg-primary opacity-7'>
                 <div className='pt-8 md:pt-25'>
                     <h3 className='text-xl md:text-3xl font-bold uppercase text-white m-2 sm:m-0'>Currencies you can find
                         <span className='inline-block sm:block font-normal'>on our Platform</span>

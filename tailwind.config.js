@@ -8,6 +8,8 @@ module.exports = {
         'market-header': 'url("./assets/Market.png")',
         'home-automate-trade': 'url("./assets/home-1.png")',
         'home-copy-trade': "url('./assets/home-2.png')",
+        'key-feature': "url('./assets/techno.png')",
+        'currency': "url('./assets/keyFeature.png')",
       },
       colors: {
         'accent': '#00AECC',

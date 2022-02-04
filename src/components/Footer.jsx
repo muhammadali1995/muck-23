@@ -18,7 +18,7 @@ export default function Footer() {
                             <img src={cloudflare} alt="cloudflare" />
                         </div>
                     </div>
-                    <button className="bg-accent py-6 md:px-[70px] mb-16 mt-8 md:text-2xl md:mt-16 hover:bg-white hover:text-accent">MARKETPLACE</button>
+                    <button className="bg-accent py-6 px-5 md:px-[70px] mb-16 mt-8 md:text-2xl md:mt-16 hover:bg-white hover:text-accent">MARKETPLACE</button>
                 </div>
                 <div className="flex px-20 lg:px-0 items-center md:items-start text-center md:text-left justify-center sm:justify-between flex-col md:flex-row w-full lg:w-7/12 flex-wrap">
                     <ul className="uppercase text-xl my-12 md:my-0">
@@ -40,7 +40,6 @@ export default function Footer() {
                     <ul className="uppercase text-lg mb-0 md:mb-12 mt-12 md:my-0">
                         <li className="cursor-pointer">Privacy Policy</li>
                         <li className="cursor-pointer mt-2">Terms and Conditions</li>
-                        <li className="cursor-pointer mt-2">Support</li>
                     </ul>
                 </div>
             </div>

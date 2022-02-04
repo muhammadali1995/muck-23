@@ -16,7 +16,7 @@ export default function Paragraphs() {
     return (
         <div className="side-padding mx-auto">
             <h1 className="font-bold text-[48px] my-[60px]">More Features Included</h1>
-            {moreInformationdb.map((element,index) => {
+            {moreInformationdb.map((element, index) => {
                 return (
                     <div key={index} className="flex items-center my-[12px]">
                         <div className="flex items-start">
