@@ -1,6 +1,6 @@
 import background from './../assets/technology-network-background-min.png'
 import bitcoin from './../assets/bitcoin.png'
-import crypto from './../assets/crypto_logo.png'
+import ethereum from './../assets/ethereum.png'
 import litecoin from './../assets/litecoin.png'
 import repl from './../assets/ripple.png'
 import cardano from './../assets/cardano.png'
@@ -9,7 +9,7 @@ import dogecoin from './../assets/dogecoin.png'
 export default function Currencies() {
     const currenciesdb = [
         { image: bitcoin, text: 'Bitcoin' },
-        { image: crypto, text: 'Ethereum' },
+        { image: ethereum, text: 'Ethereum' },
         { image: litecoin, text: 'Litecoin' },
         { image: repl, text: 'XRP(Ripple)' },
         { image: cardano, text: 'Cardano' },

@@ -15,7 +15,7 @@ export default function Trading() {
                     is designed to ensure that our clients and business partners,
                     as well as our team of professionals, invest their time wisely.
                 </p>
-                <button className='header-btn-try mt'>TRY IT NOW</button>
+                <button className='header-btn-try mt-6'>TRY IT NOW</button>
             </div>
             <div className='relative justify-center lg:w-auto sm:flex'>
                 <img className="h-full my-8 lg:my-0" src={teams} alt='teams' />

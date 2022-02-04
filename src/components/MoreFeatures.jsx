@@ -26,7 +26,7 @@ export default function Paragraphs() {
                     </div>
                 )
             })}
-            <button className='text-white bg-accent text-2xl font-medium py-[24px] px-[71px] mt-[60px] mb-[137px]'>TRY IT NOW</button>
+            <button className='header-btn-try mt-[60px] mb-[137px]'>TRY IT NOW</button>
         </div>
     )
 }

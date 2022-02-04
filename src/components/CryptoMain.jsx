@@ -10,7 +10,7 @@ export default function CryptoMain() {
                             signals </span></h1>
                     <p className="font-medium mt-4 text-base w-full lg:w-64">Get Latest trading news about the
                         Cryptocurrency world . </p>
-                    <button className="mt-6 py-4 px-8 text-white font-medium bg-accent">TRY IT NOW</button>
+                    <button className="mt-10 header-btn-try">TRY IT NOW</button>
                 </div>
                 <div>
                     <img alt="robots" src={message} />

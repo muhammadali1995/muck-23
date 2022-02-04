@@ -10,7 +10,7 @@ export default function MirrorTraderMain() {
                         <span className='text-accent'> and Mirror a
                             Pro trader.</span></h1>
                     <p className="font-medium mt-4 text-base">Mirror trading is completely free to use, and allows you to buy templates, strategies or signals and trade autonomously. </p>
-                    <button className="mt-6 py-4 px-8 text-white font-medium bg-accent">TRY IT NOW</button>
+                    <button className="mt-10 header-btn-try">TRY IT NOW</button>
                 </div>
                 <div>
                     <img alt="robots" src={robots} />

@@ -15,7 +15,7 @@ export default function SolutionMain() {
                             <img src={arrow} alt="arrow" className='mx-4' />
                             <p>Jumpstart.</p>
                         </div>
-                        <button className="mt-6 py-4 px-8 text-white font-medium bg-accent">TRY IT NOW</button>
+                        <button className="header-btn-try mt-10">TRY IT NOW</button>
                     </div>
                     <div className="mt-16 lg:mt-0">
                         <img alt="robots" src={racket} />
