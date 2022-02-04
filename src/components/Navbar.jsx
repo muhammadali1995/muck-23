@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link'
 
 
 export default function Navbar({ navColor }) {
@@ -136,13 +137,13 @@ export default function Navbar({ navColor }) {
                             </Link>
                         </li>
                         <li>
-                            <Link
+                            <HashLink
                                 data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
-                                to='/'>
+                                to='/about#form'>
                                 Contact Us
-                            </Link>
-                        </li>
+                            </HashLink>
+                        </li >
                         <li>
                             <Link
                                 data-collapse-toggle="mobile-menu-2"
@@ -151,10 +152,10 @@ export default function Navbar({ navColor }) {
                                 Career
                             </Link>
                         </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+                    </ul >
+                </div >
+            </div >
+        </div >
 
     )
 }

@@ -1,15 +1,29 @@
+import React from "react";
 import { useState } from "react";
 import email from './../assets/email.png'
 import phone from './../assets/phone.png'
 import clock from './../assets/clock.png'
 
 export default function Contact() {
+    const onSubmit = (e) => {
+        e.preventDefault()
+        const formValues = {
+            firstname: e.target.elements[2].value,
+            lastname: e.target.elements[3].value,
+            email: e.target.elements[4].value,
+            phoneNumber: e.target.elements[5].value,
+            consent: e.target.elements[6]?.value,
+        }
+        console.log(formValues);
+    }
+
+
     const [openTab, setOpenTab] = useState(1);
     return (
-        <div className="max-w-desktop mx-auto my-20 p-4  md:p-8">
+        <div id="form" className="max-w-desktop mx-auto my-20 p-4  md:p-8">
             <h2 className="text-4xl font-bold text-[#045DB6] text-center mt-8 uppercase">CONTACT Us </h2>
             <div className="w-full md:w-8/12 mx-auto bg-white mt-12" style={{ filter: 'drop-shadow(6px 7px 14px rgba(0, 0, 0, 0.35))', }}>
-                <form>
+                <form onSubmit={onSubmit}>
                     <div className="flex">
                         <button className={openTab === 1 ? 'w-1/2 py-4 px-2 text-xs md:text-xl truncate font-medium text-dark-primary border-b-2 border-[#022F5B]' : 'w-1/2 py-4 text-xs md:text-xl truncate font-medium text-[#15143966] border-b-2 border-[#EBEAED]'} onClick={(e) => { e.preventDefault(); setOpenTab(1) }}>LET US CALL YOU</button>
                         <button className={openTab === 2 ? 'w-1/2 py-4 text-xs md:text-xl truncate font-medium text-dark-primary border-b-2 border-[#022F5B]' : 'w-1/2 py-4 text-xs md:text-xl truncate font-medium text-[#15143966] border-b-2 border-[#EBEAED]'} onClick={(e) => { e.preventDefault(); setOpenTab(2) }}>WRITE US A MESSAGE</button>
@@ -18,25 +32,25 @@ export default function Contact() {
                         <div className="flex justify-between flex-col md:flex-row">
                             <div className="flex flex-col w-full md:w-1/2">
                                 <label className="text-dark-primary font-bold m-4">FIRST NAME</label>
-                                <input type="text" className="border w-full md:w-11/12 py-3 px-5 border-[#EBEAED] outline-none" placeholder="First name" />
+                                <input name='firstname' type="text" className="border w-full md:w-11/12 py-3 px-5 border-[#EBEAED] outline-none" placeholder="First name" />
                             </div>
                             <div className="flex flex-col w-full md:w-1/2">
                                 <label className="text-dark-primary font-bold m-4 ml-4 md:ml-12 uppercase">Last NAME</label>
-                                <input type="text" className="border w-full md:w-11/12 py-3 px-5 ml-auto border-[#EBEAED] outline-none" placeholder="Last name" />
+                                <input type="text" name='lastname' className="border w-full md:w-11/12 py-3 px-5 ml-auto border-[#EBEAED] outline-none" placeholder="Last name" />
                             </div>
                         </div>
                         <div className="flex flex-col w-full mt-4">
                             <label className="text-dark-primary font-bold m-4 uppercase">Email address</label>
-                            <input type="email" className="border w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Email Address" />
+                            <input type="email" name='email' className="border w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Email Address" />
                         </div>
                         <div className="flex flex-col w-full mt-4">
                             <label className="text-dark-primary font-bold m-4 uppercase">Phone number</label>
-                            <input type="number" className="border appearance-none w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Phone Number" />
+                            <input type="number" name="phoneNumber" className="border appearance-none w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Phone Number" />
                         </div>
                         <div className="block">
                             <div className="mt-8 ml-4">
                                 <label className="inline-flex items-center">
-                                    <input type="checkbox" className="w-5 h-5 rounded-full" />
+                                    <input name="consent" type="checkbox" className="w-5 h-5 rounded-full" />
                                     <span className="ml-2 text-xs md:text-sm">I have read and accept the Client Agreement and Risk Disclosure of the Company</span>
                                 </label>
                             </div>
@@ -49,16 +63,16 @@ export default function Contact() {
                         <div className="flex flex-col md:flex-row justify-between">
                             <div className="flex flex-col w-full md:w-1/2">
                                 <label className="text-dark-primary font-bold m-4">FIRST NAME</label>
-                                <input type="text" className="border w-full md:w-11/12 py-3 px-5 border-[#EBEAED] outline-none" placeholder="First name" />
+                                <input type="text" name="firstname" className="border w-full md:w-11/12 py-3 px-5 border-[#EBEAED] outline-none" placeholder="First name" />
                             </div>
                             <div className="flex flex-col w-full md:w-1/2">
                                 <label className="text-dark-primary font-bold m-4 ml-4 md:ml-12 uppercase">Last NAME</label>
-                                <input type="text" className="border w-full md:w-11/12 py-3 px-5 ml-auto border-[#EBEAED] outline-none" placeholder="Last name" />
+                                <input type="text" name="lastname" className="border w-full md:w-11/12 py-3 px-5 ml-auto border-[#EBEAED] outline-none" placeholder="Last name" />
                             </div>
                         </div>
                         <div className="flex flex-col w-full mt-4">
                             <label className="text-dark-primary font-bold m-4 uppercase">Email address</label>
-                            <input type="email" className="border w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Email Address" />
+                            <input type="email" name="email" className="border w-full py-3 px-5 border-[#EBEAED] outline-none" placeholder="Email Address" />
                         </div>
                         <div className="flex flex-col w-full mt-4">
                             <label className="text-dark-primary font-bold m-4 uppercase">Phone number</label>
@@ -66,7 +80,7 @@ export default function Contact() {
                         </div>
                         <div className="flex flex-col w-full mt-4">
                             <label className="text-dark-primary font-bold m-4 uppercase">Message</label>
-                            <textarea type="number" className="border appearance-none w-full py-3 px-5 border-[#EBEAED] outline-none h-48" placeholder="Write a Message" />
+                            <textarea name="message" className="border appearance-none w-full py-3 px-5 border-[#EBEAED] outline-none h-48" placeholder="Write a Message" />
                         </div>
                         <div className="block">
                             <div className="mt-8 ml-4">
@@ -77,7 +91,7 @@ export default function Contact() {
                             </div>
                         </div>
                         <div className="flex justify-center">
-                            <button class="bg-[#045DB6] mt-4 mx-auto py-4 text-center text-white w-1/2">SUBMIT</button>
+                            <button className="bg-[#045DB6] mt-4 mx-auto py-4 text-center text-white w-1/2">SUBMIT</button>
                         </div>
                     </div>
                 </form>

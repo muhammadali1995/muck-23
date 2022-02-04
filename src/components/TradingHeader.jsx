@@ -4,7 +4,7 @@ export default function Trading() {
     return (
         <div className="bg-[#022F5B] mx-auto flex flex-col  lg:flex-row items-start justify-center side-padding pt-8 lg-pt-0">
             <div className="text-white md:py-12 xl:pt-[168px] w-full lg:w-1/2">
-                <h1 className="header-title text-xl md:header-title mb-[17px]">
+                <h1 className="header-title text-white text-xl md:header-title mb-[17px]">
                     Who is
                     <span className="text-accent"> No <br className='hidden xl:block' /> name 1</span>
                 </h1>
