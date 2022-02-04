@@ -34,7 +34,7 @@ const cardData = [
     {
         id: 4,
         name: 'Damion La Bagh',
-        review: `"The Cryptobot experience is simply amazing. Great instructions to help you on your way and s great community. The website is beautifully designed with full functionality. The app on the other hand is nice but it's not as full featured. It has the things you need to monitor your Bots and basically interact but doesn't have the nice graphs, charts or settings to create new strategies like the website does. so one is still dependant on a laptop or computer to get everything set up 1st before"`,
+        review: `"The Cryptobot experience is simply amazing. Great instructions to help you on your way and s great community. The website is beautifully designed with full functionality. The platform on the other hand is nice but it's not as full featured. It has the things you need to monitor your Bots and basically interact but doesn't have the nice graphs, charts or settings to create new strategies like the website does. so one is still dependant on a laptop or computer to get everything set up 1st before"`,
         imageSrc: cardImage,
     },
     {
