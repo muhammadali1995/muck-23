@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'market-header': 'url("./assets/Market.png")',
+        'market-header': 'url("./assets/Market.jpeg")',
         'home-automate-trade': 'url("./assets/home-1.png")',
         'home-copy-trade': "url('./assets/home-2.png')",
         'key-feature': "url('./assets/techno.png')",
