@@ -111,7 +111,7 @@ export default function Navbar({ navColor }) {
                                 data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/solution'>
-                                Beginners
+                               Individuals
                             </Link>
                         </li>
                         <li>
@@ -144,14 +144,6 @@ export default function Navbar({ navColor }) {
                                 Contact Us
                             </HashLink>
                         </li >
-                        <li>
-                            <Link
-                                data-collapse-toggle="mobile-menu-2"
-                                className="nav-dropdown-link"
-                                to='/'>
-                                Career
-                            </Link>
-                        </li>
                     </ul >
                 </div >
             </div >

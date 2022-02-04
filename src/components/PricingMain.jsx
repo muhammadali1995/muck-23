@@ -6,7 +6,7 @@ export default function PricingMain() {
                 <p className="mt-4 mx-auto text-center w-full px-4 lg:w-1/4">Become a member &amp; join many others who are happy to use our services.</p>
                 <div className="w-100 overflow-auto lg:py-16">
                     <div className="flex mx-auto items-center max-w-[1200px] mt-[96px] justify-start lg:justify-center">
-                        <div className="mb-[47px]">
+                        <div className="mb-[57px]">
                             <h3 className="bg-[#F6F6F6] w-60 font-bold px-6 py-4">Positions</h3>
                             <h3 className="bg-[#DEDEDE] w-60 font-bold px-6 py-4">Portfolio</h3>
                             <h3 className="bg-[#F6F6F6] w-60 font-bold px-6 py-4">Trading</h3>
@@ -15,7 +15,7 @@ export default function PricingMain() {
                         </div>
                         <div className="bg-[#045DB6] text-white rounded-2xl h-[780px] text-center">
                             <div className="p-6"><h3 className="font-medium text-3xl text-center uppercase w-44">Pioneer</h3>
-                                <p className="font-normal mt-2 mx-auto text-center w-1/2">Free Package</p>
+                                <p className="font-normal mt-2 mx-auto text-center w-1/2">Free <br /> Package</p>
                                 <hr className="mt-11" />
                             </div>
                             <h3 className="bg-transparent w-full font-bold px-6 py-4 mt-1">Portfolio</h3>
