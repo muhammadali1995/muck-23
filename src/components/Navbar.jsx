@@ -31,7 +31,7 @@ export default function Navbar({ navColor }) {
                                     Solutions
                                 </button>
 
-                                <Link to='/exchanges' className="nav-link">Market Place</Link>
+                                <Link to='/market-place-coming' className="nav-link">Market Place</Link>
                                 <button
                                     id="toolsDropdownButton"
                                     data-dropdown-toggle="toolsDropdown"

@@ -18,6 +18,7 @@ const colorMaps = {
     '/solution': black,
     '/pricing': black,
     '/exchanges': black,
+    '/market-place-coming': black,
     '/about': white,
     '/web-trader': black
 }
