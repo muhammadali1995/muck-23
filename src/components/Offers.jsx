@@ -16,9 +16,11 @@ export default function Offers() {
                         return (
                             <div key={index} className='flex flex-col lg:flex-row items-center justify-between my-8 lg:my-12'>
                                 <div className='mr-0 lg:mr-6 w-full sm:w-2/3 order-2 lg:order-1'>
-                                    <h2 className='font-bold text-3xl uppercase'>{element.title}</h2>
-                                    <div className='h-4 lg:w-72 mt-2 hidden sm:block' style={{ background: 'linear-gradient(90.13deg, #00AECC ,rgba(4, 93, 182, 0.5))', }}></div>
-                                    <p className='font-medium text-base mt-4'>{element.text}</p>
+                                    <div className="max-w-max">
+                                        <h2 className='w-full font-bold text-3xl lg:text-[34px] lg:leading-[45px] uppercase'>{element.title}</h2>
+                                        <div className='w-full h-4 hidden sm:block mt-2' style={{ background: 'linear-gradient(90.13deg, #00AECC 5.66%, rgba(4, 93, 182, 0.5) 106.16%)', }}></div>
+                                    </div>
+                                    <p className='font-medium text-base lg:text-lg lg:leading-7 mt-4 lg:mt-5'>{element.text}</p>
                                 </div>
                                 <div className='my-4 lg:my-0 order-1 lg:order-2'>
                                     <img alt={element.title} src={element.img} className='w-full h-full' />
@@ -33,9 +35,11 @@ export default function Offers() {
                                     <img alt={element.title} src={element.img} className='w-full h-full' />
                                 </div>
                                 <div className='ml-0 lg:ml-6 w-full sm:w-2/3'>
-                                    <h2 className='font-bold text-3xl uppercase'>{element.title}</h2>
-                                    <div className='lg:w-64 h-4 hidden sm:block mt-2' style={{ background: 'linear-gradient(90.13deg, #00AECC 5.66%, rgba(4, 93, 182, 0.5) 106.16%)', }}></div>
-                                    <p className='font-medium text-base mt-4'>{element.text}</p>
+                                    <div className="max-w-max">
+                                        <h2 className='w-full font-bold text-3xl lg:text-[34px] lg:leading-[45px] uppercase'>{element.title}</h2>
+                                        <div className='w-full h-4 hidden sm:block mt-2' style={{ background: 'linear-gradient(90.13deg, #00AECC 5.66%, rgba(4, 93, 182, 0.5) 106.16%)', }}></div>
+                                    </div>
+                                    <p className='font-medium text-base lg:text-lg lg:leading-7 mt-4 lg:mt-5 align-top'>{element.text}</p>
                                 </div>
                             </div>
                         )

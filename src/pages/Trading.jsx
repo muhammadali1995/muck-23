@@ -21,8 +21,8 @@ const stepsdb = [
     },
     {
         img: step3,
-        title: `Trade like a pro. Without being one.`,
-        text: `You don’t need to be a pro to trade like one. Level up your game - and your results - by copying pro traders on our marketplace. Subscribe to trading signals, which tell your bot when to buy or sell. Use strategies from professionals to scan the markets, and download pre-configured bot templates.`
+        title: `Available anytime. Anywhere.`,
+        text: `Hosted in the cloud, Cryptohopper is available 24/7. Protect and monitor your assets, even while you’re logged out. Access your Hopper from any device, including web, phone, tablet, and even your smartwatch.`
     }
 ]
 
