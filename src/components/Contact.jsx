@@ -27,6 +27,13 @@ export default function Contact() {
     //         console.error('error',error)
     //     })
     //}
+
+    const onSubmit = (e) => {
+        e.preventDefault()
+        console.log(e);
+    }
+
+
     const [openTab, setOpenTab] = useState(1);
     return (
         <div id="form" className="max-w-desktop mx-auto my-20 p-4  md:p-8">
