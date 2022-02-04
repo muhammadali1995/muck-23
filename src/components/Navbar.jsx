@@ -111,7 +111,7 @@ export default function Navbar({ navColor }) {
                                 data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/solution'>
-                                Beginners
+                               Individuals
                             </Link>
                         </li>
                         <li>
