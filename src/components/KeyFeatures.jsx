@@ -1,4 +1,3 @@
-import background from './../assets/keyFeature.png'
 import browser from './../assets/browser.png'
 import translate from './../assets/translation.png'
 import maskGroup from './../assets/Mask Group.png'
