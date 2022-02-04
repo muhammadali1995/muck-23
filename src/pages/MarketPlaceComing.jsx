@@ -14,5 +14,5 @@ export default function MarketPlaceComing() {
                 </div>
             </div>
         </div>
-    </div>;
+    </div>
 };

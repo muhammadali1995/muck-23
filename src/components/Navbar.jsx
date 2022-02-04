@@ -31,7 +31,12 @@ export default function Navbar({ navColor }) {
                                     Solutions
                                 </button>
 
-                                <Link to='/market-place-coming' className="nav-link">Market Place</Link>
+                                <Link
+                                    to='/market-place-coming'
+                                    data-collapse-toggle="mobile-menu-2"
+                                    className="nav-link">
+                                    Market Place
+                                </Link>
                                 <button
                                     id="toolsDropdownButton"
                                     data-dropdown-toggle="toolsDropdown"
@@ -64,12 +69,14 @@ export default function Navbar({ navColor }) {
                         <li>
                             <Link
                                 className="nav-dropdown-link"
+                                data-collapse-toggle="mobile-menu-2"
                                 to='/automatic-trading'>
                                 Automatic Trading
                             </Link>
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/crypto-signals'>
                                 Crypto Signals
@@ -77,6 +84,7 @@ export default function Navbar({ navColor }) {
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/copy-trading'>
                                 Copy Trading
@@ -84,6 +92,7 @@ export default function Navbar({ navColor }) {
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/web-trader'>
                                 Web Trader
@@ -91,6 +100,7 @@ export default function Navbar({ navColor }) {
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/exchanges'>
                                 Exchanges
@@ -104,6 +114,7 @@ export default function Navbar({ navColor }) {
                     <ul className="py-1" aria-labelledby="solutionsDropdownButton">
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/solution'>
                                 Beginners
@@ -111,6 +122,7 @@ export default function Navbar({ navColor }) {
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/'>
                                 Pro
@@ -118,6 +130,7 @@ export default function Navbar({ navColor }) {
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/pricing'>
                                 Pricing
@@ -131,6 +144,7 @@ export default function Navbar({ navColor }) {
                     <ul className="py-1" aria-labelledby="toolsDropdownButton">
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/'>
                                 Get Started
@@ -138,6 +152,7 @@ export default function Navbar({ navColor }) {
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/'>
                                 Tutorials
@@ -145,6 +160,7 @@ export default function Navbar({ navColor }) {
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/'>
                                 Academy
@@ -152,6 +168,7 @@ export default function Navbar({ navColor }) {
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/'>
                                 Blog
@@ -159,6 +176,7 @@ export default function Navbar({ navColor }) {
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/'>
                                 HelpDesk
@@ -172,6 +190,7 @@ export default function Navbar({ navColor }) {
                     <ul className="py-1" aria-labelledby="aboutUsDropdownButton">
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/about'>
                                 About Us
@@ -179,6 +198,7 @@ export default function Navbar({ navColor }) {
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/'>
                                 Contact Us
@@ -186,6 +206,7 @@ export default function Navbar({ navColor }) {
                         </li>
                         <li>
                             <Link
+                                data-collapse-toggle="mobile-menu-2"
                                 className="nav-dropdown-link"
                                 to='/'>
                                 Career
@@ -194,7 +215,7 @@ export default function Navbar({ navColor }) {
                     </ul>
                 </div>
             </div>
-        </div >
+        </div>
 
     )
 }
